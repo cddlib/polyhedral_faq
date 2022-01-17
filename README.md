@@ -1,5 +1,5 @@
 # polyhedral_faq
-sources for Polyhedral Computation FAQ
+sources for [Polyhedral Computation FAQ](https://cddlib.github.io/polyhedral_faq)
 
 Building pdf
 ============
