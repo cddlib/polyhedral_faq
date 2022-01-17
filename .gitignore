@@ -1,0 +1,16 @@
+*.log
+*.out
+*.pdf
+*.dvi
+*.log
+*.html
+*.png
+*.bbl
+*.blg
+*.4*
+*.lg
+*.aux
+*.css
+*.xref
+*.tmp
+*.idv
