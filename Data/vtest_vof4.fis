@@ -1,0 +1,20 @@
+* cdd+: Double Description Method in C++:Version 0.74 (June 17, 1996)
+* Copyright (C) 1996, Komei Fukuda, fukuda@ifor.math.ethz.ch
+* Compiled for Floating-Point Arithmetic
+*Input File:vtest_vof4.ine(7x4)
+*Degeneracy preknowledge for computation: None (possible degeneracy)
+*Facet listing is chosen.
+* `e` means essential and `r` means redundant.
+begin
+1 e: 2 7 1
+2 e: 2 7 1
+3 r: 2 7 6
+4 e: 4 2 6
+5 r: 7 2 6
+6 e: 7 2 6
+7 e: 7 2 6
+end
+*Computation starts     at Fri Nov 21 12:45:07 1997
+*            terminates at Fri Nov 21 12:45:07 1997
+*Total processor time = 0 seconds
+*                     = 0h 0m 0s

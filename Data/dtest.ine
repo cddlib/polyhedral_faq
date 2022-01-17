@@ -1,0 +1,16 @@
+H-representation
+begin
+  6  4  rational
+  0  1  0  0
+  5  1  2  1
+  5  1  1  2
+ 16  1  4  0
+ 16  1  0  4
+ 32  1  4  4
+end
+minimize
+  0  1  3  2   
+* This computes the delaunay cell containing the point (3, 2).
+* The Delaunay cell corresponds to the dual valuables positive
+* at the optimal.
+

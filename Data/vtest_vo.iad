@@ -1,0 +1,11 @@
+iad_file: Adjacency of inequalities
+begin
+  7    7
+ 1 -5 : 1 6 
+ 2 -4 : 2 5 7 
+ 3 -4 : 3 4 7 
+ 4 -4 : 3 4 5 
+ 5 -4 : 2 4 5 
+ 6 -5 : 1 6 
+ 7 -4 : 2 3 7 
+end

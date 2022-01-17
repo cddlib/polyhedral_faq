@@ -1,0 +1,1691 @@
+%!PS-Adobe-2.0 EPSF-1.2
+%%BoundingBox: 0 0 279 289
+%%Creator: NeXT Mathematica Notebook Front End Version 2.2
+%%Title: Clipboard
+%%CreationDate: Sometime Sometime
+%%EndComments
+/Mnodistort true def
+150 dict begin
+/Mfixwid true def
+/Mrot 0 def
+/Mpstart {
+    MathPictureStart
+} bind def
+/Mpend {
+    MathPictureEnd
+} bind def
+/Mscale {
+    0 1 0 1
+    5 -1 roll
+    MathScale
+} bind def
+/Plain	/Courier findfont def
+/Bold	/Courier-Bold findfont def
+/Italic /Courier-Oblique findfont def
+/MathPictureStart {
+	/Mimatrix
+	 matrix currentmatrix
+	def
+	gsave
+	newpath
+	Mleft
+	Mbottom
+	translate
+	1 -1 scale
+	/Mtmatrix
+	matrix currentmatrix
+	def
+	Plain
+	Mfontsize scalefont
+	setfont
+	0 setgray
+	0 setlinewidth
+} bind def
+/MathPictureEnd {
+	grestore
+} bind def
+/MathSubStart {
+		Mgmatrix Mtmatrix
+        Mleft Mbottom
+        Mwidth Mheight
+        8 -2 roll
+        moveto
+        Mtmatrix setmatrix
+        currentpoint
+        Mgmatrix setmatrix
+        10 -2 roll
+        moveto
+        Mtmatrix setmatrix
+        currentpoint
+        2 copy translate
+        /Mtmatrix matrix currentmatrix def
+        /Mleft 0 def
+        /Mbottom 0 def
+        3 -1 roll
+        exch sub
+        /Mheight exch def
+        sub
+        /Mwidth exch def
+} bind def
+/MathSubEnd {
+        /Mheight exch def
+        /Mwidth exch def
+        /Mbottom exch def
+        /Mleft exch def
+        /Mtmatrix exch def
+        dup setmatrix
+        /Mgmatrix exch def
+} bind def
+/Mdot {
+	moveto
+	0 0 rlineto
+	stroke
+} bind def
+/Mtetra {
+	moveto
+	lineto
+	lineto
+	lineto
+	fill
+} bind def
+/Metetra {
+	moveto
+	lineto
+	lineto
+	lineto
+	closepath
+	gsave
+	fill
+	grestore
+	0 setgray
+	stroke
+} bind def
+/Mistroke {
+	flattenpath
+	0 0 0
+	{
+	4 2 roll
+	pop pop
+	}
+	{
+	4 -1 roll
+	2 index
+	sub dup mul
+	4 -1 roll
+	2 index
+	sub dup mul
+	add sqrt
+	4 -1 roll
+	add
+	3 1 roll
+	}
+	{
+	stop
+	}
+	{
+	stop
+	}
+	pathforall
+	pop pop
+	currentpoint
+	stroke
+	moveto
+	currentdash
+	3 -1 roll
+	add
+	setdash
+} bind def
+/Mfstroke {
+	stroke
+	currentdash
+	pop 0
+	setdash
+} bind def
+/Mrotsboxa {
+	gsave
+	dup
+	/Mrot
+	exch def
+	Mrotcheck
+	Mtmatrix
+	dup
+	setmatrix
+	7 1 roll
+	4 index
+	4 index
+	translate
+	rotate
+	3 index
+	-1 mul
+	3 index
+	-1 mul
+	translate
+	/Mtmatrix
+	matrix
+	currentmatrix
+	def
+	grestore
+	Msboxa
+	3  -1 roll
+	/Mtmatrix
+	exch def
+	/Mrot
+	0 def
+} bind def
+/Msboxa {
+	newpath
+	5 -1 roll
+	Mvboxa
+	pop
+	Mboxout
+	6 -1 roll
+	5 -1 roll
+	4 -1 roll
+	Msboxa1
+	5 -3 roll
+	Msboxa1
+	Mboxrot
+	[
+	7 -2 roll
+	2 copy
+	[
+	3 1 roll
+	10 -1 roll
+	9 -1 roll
+	]
+	6 1 roll
+	5 -2 roll
+	]
+} bind def
+/Msboxa1 {
+	sub
+	2 div
+	dup
+	2 index
+	1 add
+	mul
+	3 -1 roll
+	-1 add
+	3 -1 roll
+	mul
+} bind def
+/Mvboxa	{
+	Mfixwid
+	{
+	Mvboxa1
+	}
+	{
+	dup
+	Mwidthcal
+	0 exch
+	{
+	add
+	}
+	forall
+	exch
+	Mvboxa1
+	4 index
+	7 -1 roll
+	add
+	4 -1 roll
+	pop
+	3 1 roll
+	}
+	ifelse
+} bind def
+/Mvboxa1 {
+	gsave
+	newpath
+	[ true
+	3 -1 roll
+	{
+	Mbbox
+	5 -1 roll
+	{
+	0
+	5 1 roll
+	}
+	{
+	7 -1 roll
+	exch sub
+	(m) stringwidth pop
+	.3 mul
+	sub
+	7 1 roll
+	6 -1 roll
+	4 -1 roll
+	Mmin
+	3 -1 roll
+	5 index
+	add
+	5 -1 roll
+	4 -1 roll
+	Mmax
+	4 -1 roll
+	}
+	ifelse
+	false
+	}
+	forall
+	{ stop } if
+	counttomark
+	1 add
+	4 roll
+	]
+	grestore
+} bind def
+/Mbbox {	% str Mbbox xlow ylow xhigh yhigh
+	1 dict begin
+	0 0 moveto		% str
+	/temp (T) def
+	{	gsave
+		currentpoint newpath moveto
+		temp 0 3 -1 roll put temp
+		false charpath flattenpath currentpoint
+		pathbbox
+		grestore moveto lineto moveto} forall
+	pathbbox
+	newpath
+	end
+} bind def
+/Mmin {
+	2 copy
+	gt
+	{ exch } if
+	pop
+} bind def
+/Mmax {
+	2 copy
+	lt
+	{ exch } if
+	pop
+} bind def
+/Mrotshowa {
+	dup
+	/Mrot
+	exch def
+	Mrotcheck
+	Mtmatrix
+	dup
+	setmatrix
+	7 1 roll
+	4 index
+	4 index
+	translate
+	rotate
+	3 index
+	-1 mul
+	3 index
+	-1 mul
+	translate
+	/Mtmatrix
+	matrix
+	currentmatrix
+	def
+	Mgmatrix setmatrix
+	Mshowa
+	/Mtmatrix
+	exch def
+	/Mrot 0 def
+} bind def
+/Mshowa {
+	4 -2 roll
+	moveto
+	2 index
+	Mtmatrix setmatrix
+	Mvboxa
+	7 1 roll
+	Mboxout
+	6 -1 roll
+	5 -1 roll
+	4 -1 roll
+	Mshowa1
+	4 1 roll
+	Mshowa1
+	rmoveto
+	currentpoint
+	Mfixwid
+	{
+	Mshowax
+	}
+	{
+	Mshoway
+	}
+	ifelse
+	pop pop pop pop
+	Mgmatrix setmatrix
+} bind def
+/Mshowax {
+	0 1
+        4 index length
+        -1 add
+        {
+        2 index
+        4 index
+        2 index
+        get
+        3 index
+        add
+        moveto
+        4 index
+        exch get
+        show
+        } for
+} bind def
+/Mshoway {
+        3 index
+        Mwidthcal
+        5 1 roll
+	0 1
+	4 index length
+	-1 add
+	{
+	2 index
+	4 index
+	2 index
+	get
+	3 index
+	add
+	moveto
+	4 index
+	exch get
+	[
+	6 index
+	aload
+	length
+	2 add
+	-1 roll
+	{
+	pop
+	Strform
+	stringwidth
+	pop
+	neg
+	exch
+	add
+	0 rmoveto
+	}
+	exch
+	kshow
+	cleartomark
+	} for
+	pop
+} bind def
+/Mwidthcal {
+	[
+	exch
+	{
+	Mwidthcal1
+	}
+	forall
+	]
+	[
+	exch
+	dup
+	Maxlen
+	-1 add
+	0 1
+	3 -1 roll
+	{
+	[
+	exch
+	2 index
+	{
+	1 index
+	Mget
+	exch
+	}
+	forall
+	pop
+	Maxget
+	exch
+	}
+	for
+	pop
+	]
+	Mreva
+} bind def
+/Mreva	{
+	[
+	exch
+	aload
+	length
+	-1 1
+	{1 roll}
+	for
+	]
+} bind def
+/Mget	{
+	1 index
+	length
+	-1 add
+	1 index
+	ge
+	{
+	get
+	}
+	{
+	pop pop
+	0
+	}
+	ifelse
+} bind def
+/Maxlen	{
+	[
+	exch
+	{
+	length
+	}
+	forall
+	Maxget
+} bind def
+/Maxget	{
+	counttomark
+	-1 add
+	1 1
+	3 -1 roll
+	{
+	pop
+	Mmax
+	}
+	for
+	exch
+	pop
+} bind def
+/Mwidthcal1 {
+	[
+	exch
+	{
+	Strform
+	stringwidth
+	pop
+	}
+	forall
+	]
+} bind def
+/Strform {
+	/tem (x) def
+	tem 0
+	3 -1 roll
+	put
+	tem
+} bind def
+/Mshowa1 {
+	2 copy
+	add
+	4 1 roll
+	sub
+	mul
+	sub
+	-2 div
+} bind def
+/MathScale {
+ 	Mwidth
+	Mheight
+	Mlp
+	translate
+	scale
+	/yscale exch def
+	/ybias exch def
+	/xscale exch def
+	/xbias exch def
+	/Momatrix
+	xscale yscale matrix scale
+	xbias ybias matrix translate
+	matrix concatmatrix def
+	/Mgmatrix
+	matrix currentmatrix def
+} bind def
+/Mlp {
+	3 copy
+	Mlpfirst
+	{
+	Mnodistort
+	{
+	Mmin
+	dup
+	} if
+	4 index
+	2 index
+	2 index
+	Mlprun
+	11 index
+	11 -1 roll
+	10 -4 roll
+	Mlp1
+	8 index
+	9 -5 roll
+	Mlp1
+	4 -1 roll
+	and
+	{ exit } if
+	3 -1 roll
+	pop pop
+	} loop
+	exch
+	3 1 roll
+	7 -3 roll
+	pop pop pop
+} bind def
+/Mlpfirst {
+	3 -1 roll
+	dup length
+	2 copy
+	-2 add
+	get
+	aload
+	pop pop pop
+	4 -2 roll
+	-1 add
+	get
+	aload
+	pop pop pop
+	6 -1 roll
+	3 -1 roll
+	5 -1 roll
+	sub
+	dup /MsaveAx exch def
+	div
+	4 1 roll
+	exch sub
+	dup /MsaveAy exch def
+	div
+} bind def
+/Mlprun {
+	2 copy
+	4 index
+	0 get
+	dup
+	4 1 roll
+	Mlprun1
+	3 copy
+	8 -2 roll
+	9 -1 roll
+	{
+	3 copy
+	Mlprun1
+	3 copy
+	11 -3 roll
+	/gt Mlpminmax
+	8 3 roll
+	11 -3 roll
+	/lt Mlpminmax
+	8 3 roll
+	} forall
+	pop pop pop pop
+	3 1 roll
+	pop pop
+	aload pop
+	5 -1 roll
+	aload pop
+	exch
+	6 -1 roll
+	Mlprun2
+	8 2 roll
+	4 -1 roll
+	Mlprun2
+	6 2 roll
+	3 -1 roll
+	Mlprun2
+	4 2 roll
+	exch
+	Mlprun2
+	6 2 roll
+} bind def
+/Mlprun1 {
+	aload pop
+	exch
+	6 -1 roll
+	5 -1 roll
+	mul add
+	4 -2 roll
+	mul
+	3 -1 roll
+	add
+} bind def
+/Mlprun2 {
+	2 copy
+	add 2 div
+	3 1 roll
+	exch sub
+} bind def
+/Mlpminmax {
+	cvx
+	2 index
+	6 index
+	2 index
+	exec
+	{
+	7 -3 roll
+	4 -1 roll
+	} if
+	1 index
+	5 index
+	3 -1 roll
+	exec
+	{
+	4 1 roll
+	pop
+	5 -1 roll
+	aload
+	pop pop
+	4 -1 roll
+	aload pop
+	[
+	8 -2 roll
+	pop
+	5 -2 roll
+	pop
+	6 -2 roll
+	pop
+	5 -1 roll
+	]
+	4 1 roll
+	pop
+	}
+	{
+	pop pop pop
+	} ifelse
+} bind def
+/Mlp1 {
+	5 index
+	3 index	sub
+	5 index
+	2 index mul
+	1 index
+	le
+	1 index
+	0 le
+	or
+	dup
+	not
+	{
+	1 index
+	3 index	div
+	.99999 mul
+	8 -1 roll
+	pop
+	7 1 roll
+	}
+	if
+	8 -1 roll
+	2 div
+	7 -2 roll
+	pop sub
+	5 index
+	6 -3 roll
+	pop pop
+	mul sub
+	exch
+} bind def
+/intop 0 def
+/inrht 0 def
+/inflag 0 def
+/outflag 0 def
+/xadrht 0 def
+/xadlft 0 def
+/yadtop 0 def
+/yadbot 0 def
+/Minner {
+	outflag
+	1
+	eq
+	{
+	/outflag 0 def
+	/intop 0 def
+	/inrht 0 def
+	} if
+	5 index
+	gsave
+	Mtmatrix setmatrix
+	Mvboxa pop
+	grestore
+	3 -1 roll
+	pop
+	dup
+	intop
+	gt
+	{
+	/intop
+	exch def
+	}
+	{ pop }
+	ifelse
+	dup
+	inrht
+	gt
+	{
+	/inrht
+	exch def
+	}
+	{ pop }
+	ifelse
+	pop
+	/inflag
+	1 def
+} bind def
+/Mouter {
+	/xadrht 0 def
+	/xadlft 0 def
+	/yadtop 0 def
+	/yadbot 0 def
+	inflag
+	1 eq
+	{
+	dup
+	0 lt
+	{
+	dup
+	intop
+	mul
+	neg
+	/yadtop
+	exch def
+	} if
+	dup
+	0 gt
+	{
+	dup
+	intop
+	mul
+	/yadbot
+	exch def
+	}
+	if
+	pop
+	dup
+	0 lt
+	{
+	dup
+	inrht
+	mul
+	neg
+	/xadrht
+	exch def
+	} if
+	dup
+	0 gt
+	{
+	dup
+	inrht
+	mul
+	/xadlft
+	exch def
+	} if
+	pop
+	/outflag 1 def
+	}
+	{ pop pop}
+	ifelse
+	/inflag 0 def
+	/inrht 0 def
+	/intop 0 def
+} bind def
+/Mboxout {
+	outflag
+	1
+	eq
+	{
+	4 -1
+	roll
+	xadlft
+	leadjust
+	add
+	sub
+	4 1 roll
+	3 -1
+	roll
+	yadbot
+	leadjust
+	add
+	sub
+	3 1
+	roll
+	exch
+	xadrht
+	leadjust
+	add
+	add
+	exch
+	yadtop
+	leadjust
+	add
+	add
+	/outflag 0 def
+	/xadlft 0 def
+	/yadbot 0 def
+	/xadrht 0 def
+	/yadtop 0 def
+	} if
+} bind def
+/leadjust {
+	(m) stringwidth pop
+	.5 mul
+} bind def
+/Mrotcheck {
+	dup
+	90
+	eq
+	{
+	yadbot
+	/yadbot
+	xadrht
+	def
+	/xadrht
+	yadtop
+	def
+	/yadtop
+	xadlft
+	def
+	/xadlft
+	exch
+	def
+	}
+	if
+	dup
+	cos
+	1 index
+	sin
+	Checkaux
+	dup
+	cos
+	1 index
+	sin neg
+	exch
+	Checkaux
+	3 1 roll
+	pop pop
+} bind def
+/Checkaux {
+	4 index
+	exch
+	4 index
+	mul
+	3 1 roll
+	mul add
+	4 1 roll
+} bind def
+/Mboxrot {
+	Mrot
+	90 eq
+	{
+	brotaux
+	4 2
+	roll
+	}
+	if
+	Mrot
+	180 eq
+	{
+	4 2
+        roll
+	brotaux
+	4 2
+	roll
+	brotaux
+	}
+	if
+	Mrot
+	270 eq
+	{
+	4 2
+	roll
+	brotaux
+	}
+	if
+} bind def
+/brotaux {
+	neg
+	exch
+	neg
+} bind def
+/Mabsproc {
+	0
+        matrix defaultmatrix
+        dtransform idtransform
+	dup mul exch
+	dup mul
+	add sqrt
+} bind def
+/Mabswid {	
+        Mabsproc
+	setlinewidth	
+} bind def
+/Mabsdash {	
+        exch
+        [
+        exch
+        {
+        Mabsproc
+        }
+        forall
+        ]
+        exch
+        setdash
+} bind def
+/MBeginOrig { Momatrix concat} bind def
+/MEndOrig { Mgmatrix setmatrix} bind def
+/sampledsound where
+{ pop}
+{ /sampledsound {
+exch
+pop
+exch
+5 1 roll
+mul
+4 idiv
+mul
+2 idiv
+exch pop
+exch
+/Mtempproc exch def
+{ Mtempproc pop }
+repeat
+} bind def
+} ifelse
+% Here are the short operators
+/g { setgray} bind def
+/k { setcmykcolor} bind def
+/m { moveto} bind def
+/p { gsave} bind def
+/r { setrgbcolor} bind def
+/w { setlinewidth} bind def
+/C { curveto} bind def
+/F { fill} bind def
+/L { lineto} bind def
+/P { grestore} bind def
+/s { stroke} bind def
+
+
+%
+% now simple conversion of cmykcolor to rgbcolor
+% subtract k and then take complements
+/setcmykcolor where
+{ pop}
+{ /setcmykcolor {	 % c m y k
+	4 1
+	roll			% k c m y
+	[			% k c m y [
+	4 1 
+	roll			% k [  c m y
+	] 			% k [ c m y ]
+	{
+	1 index		% k elem k
+	sub			% k elem-k
+	1
+	sub neg		% k 1-(elem-k)
+	dup
+	0
+	lt
+	{
+	pop
+	0
+	}
+	if
+	dup
+	1
+	gt
+	{
+	pop
+	1
+	}
+	if
+	exch		% 1-(elem-k) k
+	} forall	% r g b k
+	pop
+	setrgbcolor
+} bind def
+} ifelse
+
+/Mcharproc	% max
+{
+  	currentfile
+  	(x)
+  	readhexstring
+  	pop		% max val
+  	0 get
+  	exch		% val max
+ 	div		% nval
+} bind def
+
+/Mshadeproc	% max ncols
+{
+	dup		% max ncols ncols
+	3 1
+	roll		% ncols max ncols
+	{		% ncols max 
+	dup		% ncols max max
+	Mcharproc		% ncols max val
+	3 1
+	roll		% v1.. ncols max
+	} repeat
+	1 eq
+	{
+	setgray
+	}
+	{
+	3 eq
+	{
+	setrgbcolor
+	}
+	{
+	setcmykcolor
+	} ifelse
+	} ifelse
+} bind def
+
+/Mrectproc % x0 x1 y0 y1
+{
+	3 index         % x0 x1 y0 y1 x0
+	2 index         % x0 x1 y0 y1 x0 y0
+	moveto          % x0 x1 y0 y1
+	2 index         % x0 x1 y0 y1 x1
+	3 -1
+	roll            % x0 x1 y1 x1 y0
+	lineto          % x0 x1 y1
+	dup             % x0 x1 y1 y1
+	3 1
+	roll            % x0 y1 x1 y1
+	lineto          % x0 y1
+	lineto
+	fill
+} bind def
+
+/Mcolorimage     % nx ny depth matrix proc bool ncols
+{
+	7 1
+	roll		% ncols nx ny depth matrix proc bool
+	pop
+	pop
+	matrix
+	invertmatrix
+	concat          % ncols nx ny depth
+	2 exch exp      % ncols nx ny 2^depth
+	1 sub           % ncols nx ny max
+	3 1 roll        % ncols max nx ny
+	1 1             % ncols max nx ny 1 1
+	2 index         % ncols max nx ny 1 1 ny
+	{               % ncols max nx ny iy
+	1 1             % ncols max nx ny iy 1 1
+	4 index         % ncols max nx ny iy 1 1 nx
+	{               % ncols max nx ny iy ix
+	dup             % ncols max nx ny iy ix ix
+	1 sub           % ncols max nx ny iy ix x0
+	exch            % ncols max nx ny iy x0 x1
+	2 index         % ncols max nx ny iy x0 x1 iy
+	dup             % ncols max nx ny iy x0 x1 iy iy
+	1 sub           % ncols max nx ny iy x0 x1 iy y0
+	exch            % ncols max nx ny iy x0 x1 y0 y1
+	7 index         % ncols max nx ny iy x0 x1 y0 y1 max
+	9 index		% ncols max nx ny iy x0 x1 y0 y1 max ncols
+	Mshadeproc	% ncols max nx ny iy x0 x1 y0 y1
+	Mrectproc        % max nx ny iy
+	} for           % x loop
+	pop             % max nx ny
+	} for           % y loop
+	pop pop pop pop
+} bind def
+
+/Mimage  % nx ny depth matrix proc
+{
+	pop
+	matrix
+	invertmatrix
+	concat          % nx ny depth
+	2 exch exp      % nx ny 2^depth
+	1 sub           % nx ny max
+	3 1 roll        % max nx ny
+	1 1             % max nx ny 1 1
+	2 index         % max nx ny 1 1 ny
+	{               % max nx ny iy
+	1 1             % max nx ny iy 1 1
+	4 index         % max nx ny iy 1 1 nx
+	{               % max nx ny iy ix
+	dup             % max nx ny iy ix ix
+	1 sub           % max nx ny iy ix x0
+	exch            % max nx ny iy x0 x1
+	2 index         % max nx ny iy x0 x1 iy
+	dup             % max nx ny iy x0 x1 iy iy
+	1 sub           % max nx ny iy x0 x1 iy y0
+	exch            % max nx ny iy x0 x1 y0 y1
+	7 index         % max nx ny iy x0 x1 y0 y1 max
+	Mcharproc	% max nx ny iy x0 x1 y0 y1 val
+	setgray         % max nx ny iy x0 x1 y0 y1
+	Mrectproc        % max nx ny iy
+	} for           % x loop
+	pop             % max nx ny
+	} for           % y loop
+	pop pop pop
+} bind def
+
+
+%MFill fills the drawing area with the current color.
+/MFill {
+	-1 -1 		moveto
+	Mwidth 1 add -1 	lineto
+	Mwidth 1 add Mheight 1 add 	lineto
+	-1 Mheight 1 add 	lineto
+	fill
+} bind def
+
+% xmin xmax ymin ymax MPlotRegion alters the origin, Mwidth and Mheight 
+% so that the picture fills the altered region
+/MPlotRegion {		% xmin xmax ymin ymax MPlotRegion
+	3 index		% xmin xmax ymin ymax xmin
+	Mwidth mul	% xmin xmax ymin ymax xmin_pos
+	2 index		% xmin xmax ymin ymax xmin_pos ymin
+	Mheight mul	% xmin xmax ymin ymax xmin_pos ymin_pos
+	translate	% xmin xmax ymin ymax
+	exch sub	% xmin xmax ymax-ymin
+	Mheight mul	% xmin xmax new_height
+	/Mheight
+	exch def	% xmin xmax
+	exch sub	% xmax-xmin
+	Mwidth mul	% new-width
+	/Mwidth
+	exch def
+} bind def
+/colorimage {Mcolorimage} bind def
+/image {Mimage} bind def
+/Mleft		1.000000 def
+/Mbottom	288.753723 def
+/Mwidth		277.108521 def
+/Mheight	287.753723 def
+/Mfontsize 12 def
+/Plain /Courier findfont def
+0 Mbottom Mheight neg add 2 mul Mheight add translate
+1 -1 scale
+%!
+%%Creator: Mathematica
+%%AspectRatio: 1.03814 
+MathPictureStart
+%% SurfaceGraphics
+/Courier findfont 10  scalefont  setfont
+% Scaling calculations
+-0.005273 1.133424 0.028336 1.133424 [
+[ 0 0 0 0 ]
+[ 1 1.03814 0 0 ]
+] MathScale
+% Start of Graphics
+1 setlinecap
+1 setlinejoin
+newpath
+[ ] 0 setdash
+0 g
+0 0 m
+1 0 L
+1 1.03814 L
+0 1.03814 L
+closepath
+clip
+newpath
+p
+.002 w
+.12817 .19851 m
+.02834 .86386 L
+s
+.02834 .86386 m
+.38573 1.0098 L
+s
+.38573 1.0098 m
+.40967 .50586 L
+s
+.40967 .50586 m
+.12817 .19851 L
+s
+.80152 .02834 m
+.90988 .41935 L
+s
+.90988 .41935 m
+.97166 .9705 L
+s
+.97166 .9705 m
+.86748 .77489 L
+s
+.86748 .77489 m
+.80152 .02834 L
+s
+.12817 .19851 m
+.02834 .86386 L
+s
+.02834 .86386 m
+.86748 .77489 L
+s
+.86748 .77489 m
+.80152 .02834 L
+s
+.80152 .02834 m
+.12817 .19851 L
+s
+.40967 .50586 m
+.90988 .41935 L
+s
+.90988 .41935 m
+.97166 .9705 L
+s
+.97166 .9705 m
+.38573 1.0098 L
+s
+.38573 1.0098 m
+.40967 .50586 L
+s
+P
+p
+.806 .654 .693 r
+.37243 .91518 .38639 .99596 .42648 .92111 .41279 .84109 Mtetra
+.788 .642 .7 r
+.41279 .84109 .42648 .92111 .46535 .85858 .45188 .77911 Mtetra
+.767 .628 .706 r
+.45188 .77911 .46535 .85858 .50336 .80752 .49007 .72837 Mtetra
+.742 .611 .713 r
+.49007 .72837 .50336 .80752 .54089 .76726 .52773 .68822 Mtetra
+.714 .592 .718 r
+.52773 .68822 .54089 .76726 .57826 .73735 .56519 .65823 Mtetra
+.682 .57 .723 r
+.56519 .65823 .57826 .73735 .6158 .71754 .60278 .63811 Mtetra
+.646 .546 .726 r
+.60278 .63811 .6158 .71754 .65386 .70775 .64086 .6278 Mtetra
+.607 .518 .728 r
+.64086 .6278 .65386 .70775 .6928 .70807 .67978 .62738 Mtetra
+.564 .488 .728 r
+.67978 .62738 .6928 .70807 .73298 .7188 .7199 .63713 Mtetra
+.518 .455 .725 r
+.7199 .63713 .73298 .7188 .77485 .74042 .76167 .65752 Mtetra
+.47 .42 .72 r
+.76167 .65752 .77485 .74042 .81886 .77368 .80555 .68926 Mtetra
+.42 .385 .713 r
+.80555 .68926 .81886 .77368 .86559 .81957 .8521 .73334 Mtetra
+.371 .348 .704 r
+.8521 .73334 .86559 .81957 .91568 .87946 .90197 .79108 Mtetra
+.322 .313 .693 r
+.90197 .79108 .91568 .87946 .96994 .95511 .95596 .86419 Mtetra
+.823 .677 .701 r
+.35778 .84482 .37243 .91518 .41279 .84109 .39854 .77115 Mtetra
+.804 .665 .71 r
+.39854 .77115 .41279 .84109 .45188 .77911 .43797 .70944 Mtetra
+.782 .651 .718 r
+.43797 .70944 .45188 .77911 .49007 .72837 .47645 .65883 Mtetra
+.756 .635 .726 r
+.47645 .65883 .49007 .72837 .52773 .68822 .51436 .61865 Mtetra
+.726 .615 .734 r
+.51436 .61865 .52773 .68822 .56519 .65823 .55202 .58847 Mtetra
+.691 .592 .74 r
+.55202 .58847 .56519 .65823 .60278 .63811 .58979 .56803 Mtetra
+.651 .565 .745 r
+.58979 .56803 .60278 .63811 .64086 .6278 .628 .55722 Mtetra
+.606 .534 .747 r
+.628 .55722 .64086 .6278 .67978 .62738 .66701 .55613 Mtetra
+.556 .499 .747 r
+.66701 .55613 .67978 .62738 .7199 .63713 .7072 .56504 Mtetra
+.503 .462 .744 r
+.7072 .56504 .7199 .63713 .76167 .65752 .74901 .5844 Mtetra
+.447 .421 .737 r
+.74901 .5844 .76167 .65752 .80555 .68926 .79291 .61492 Mtetra
+.39 .38 .728 r
+.79291 .61492 .80555 .68926 .8521 .73334 .83944 .65754 Mtetra
+.332 .338 .715 r
+.83944 .65754 .8521 .73334 .90197 .79108 .88928 .71358 Mtetra
+.276 .296 .701 r
+.88928 .71358 .90197 .79108 .95596 .86419 .94322 .78473 Mtetra
+.842 .703 .71 r
+.34228 .78441 .35778 .84482 .39854 .77115 .38358 .71083 Mtetra
+.823 .693 .72 r
+.38358 .71083 .39854 .77115 .43797 .70944 .42349 .64912 Mtetra
+.801 .68 .731 r
+.42349 .64912 .43797 .70944 .47645 .65883 .46239 .59842 Mtetra
+.773 .664 .742 r
+.46239 .59842 .47645 .65883 .51436 .61865 .50066 .55807 Mtetra
+.741 .644 .752 r
+.50066 .55807 .51436 .61865 .55202 .58847 .53864 .52762 Mtetra
+.702 .619 .761 r
+.53864 .52762 .55202 .58847 .58979 .56803 .57669 .5068 Mtetra
+.657 .589 .768 r
+.57669 .5068 .58979 .56803 .628 .55722 .61515 .49551 Mtetra
+.605 .555 .772 r
+.61515 .49551 .628 .55722 .66701 .55613 .65438 .49383 Mtetra
+.547 .515 .771 r
+.65438 .49383 .66701 .55613 .7072 .56504 .69477 .50203 Mtetra
+.484 .471 .767 r
+.69477 .50203 .7072 .56504 .74901 .5844 .73676 .52055 Mtetra
+.417 .423 .758 r
+.73676 .52055 .74901 .5844 .79291 .61492 .78081 .5501 Mtetra
+.349 .373 .745 r
+.78081 .5501 .79291 .61492 .83944 .65754 .82751 .59161 Mtetra
+.282 .323 .728 r
+.82751 .59161 .83944 .65754 .88928 .71358 .8775 .64639 Mtetra
+.218 .275 .708 r
+.8775 .64639 .88928 .71358 .94322 .78473 .9316 .71611 Mtetra
+.863 .734 .719 r
+.32576 .73365 .34228 .78441 .38358 .71083 .36776 .65981 Mtetra
+.844 .725 .732 r
+.36776 .65981 .38358 .71083 .42349 .64912 .40828 .59783 Mtetra
+.822 .714 .746 r
+.40828 .59783 .42349 .64912 .46239 .59842 .44773 .54684 Mtetra
+.793 .699 .761 r
+.44773 .54684 .46239 .59842 .50066 .55807 .48649 .50616 Mtetra
+.758 .679 .775 r
+.48649 .50616 .50066 .55807 .53864 .52762 .52492 .47534 Mtetra
+.715 .653 .787 r
+.52492 .47534 .53864 .52762 .57669 .5068 .56337 .4541 Mtetra
+.663 .621 .797 r
+.56337 .4541 .57669 .5068 .61515 .49551 .6022 .44234 Mtetra
+.602 .582 .803 r
+.6022 .44234 .61515 .49551 .65438 .49383 .64178 .44013 Mtetra
+.533 .535 .803 r
+.64178 .44013 .65438 .49383 .69477 .50203 .6825 .44774 Mtetra
+.457 .482 .796 r
+.6825 .44774 .69477 .50203 .73676 .52055 .7248 .46561 Mtetra
+.377 .424 .783 r
+.7248 .46561 .73676 .52055 .78081 .5501 .76918 .49444 Mtetra
+.295 .364 .763 r
+.76918 .49444 .78081 .5501 .82751 .59161 .8162 .53517 Mtetra
+.216 .303 .739 r
+.8162 .53517 .82751 .59161 .8775 .64639 .86654 .5891 Mtetra
+.142 .246 .712 r
+.86654 .5891 .8775 .64639 .9316 .71611 .92102 .65794 Mtetra
+.885 .769 .728 r
+.30803 .69241 .32576 .73365 .36776 .65981 .3509 .61795 Mtetra
+.868 .763 .745 r
+.3509 .61795 .36776 .65981 .40828 .59783 .39218 .55542 Mtetra
+.845 .755 .763 r
+.39218 .55542 .40828 .59783 .44773 .54684 .43232 .50391 Mtetra
+.816 .742 .782 r
+.43232 .50391 .44773 .54684 .48649 .50616 .47171 .46274 Mtetra
+.778 .724 .802 r
+.47171 .46274 .48649 .50616 .52492 .47534 .51071 .43145 Mtetra
+.73 .698 .82 r
+.51071 .43145 .52492 .47534 .56337 .4541 .54969 .40974 Mtetra
+.67 .663 .834 r
+.54969 .40974 .56337 .4541 .6022 .44234 .58902 .39752 Mtetra
+.597 .617 .842 r
+.58902 .39752 .6022 .44234 .64178 .44013 .62908 .39485 Mtetra
+.513 .561 .842 r
+.62908 .39485 .64178 .44013 .6825 .44774 .67027 .40198 Mtetra
+.418 .495 .832 r
+.67027 .40198 .6825 .44774 .7248 .46561 .71304 .41938 Mtetra
+.319 .423 .811 r
+.71304 .41938 .7248 .46561 .76918 .49444 .75789 .44774 Mtetra
+.219 .348 .782 r
+.75789 .44774 .76918 .49444 .8162 .53517 .80541 .48802 Mtetra
+.126 .275 .747 r
+.80541 .48802 .8162 .53517 .86654 .5891 .8563 .54154 Mtetra
+.041 .207 .709 r
+.8563 .54154 .86654 .5891 .92102 .65794 .91141 .61002 Mtetra
+.909 .808 .736 r
+.28886 .66074 .30803 .69241 .3509 .61795 .33277 .58528 Mtetra
+.893 .807 .757 r
+.33277 .58528 .3509 .61795 .39218 .55542 .375 .52189 Mtetra
+.871 .803 .781 r
+.375 .52189 .39218 .55542 .43232 .50391 .41599 .46963 Mtetra
+.841 .794 .806 r
+.41599 .46963 .43232 .50391 .47171 .46274 .45615 .4278 Mtetra
+.801 .779 .833 r
+.45615 .4278 .47171 .46274 .51071 .43145 .49586 .39593 Mtetra
+.747 .755 .859 r
+.49586 .39593 .51071 .43145 .54969 .40974 .53552 .3737 Mtetra
+.676 .717 .88 r
+.53552 .3737 .54969 .40974 .58902 .39752 .57549 .36101 Mtetra
+.586 .664 .892 r
+.57549 .36101 .58902 .39752 .62908 .39485 .61617 .35792 Mtetra
+.478 .594 .891 r
+.61617 .35792 .62908 .39485 .67027 .40198 .65797 .3647 Mtetra
+.357 .51 .873 r
+.65797 .3647 .67027 .40198 .71304 .41938 .70136 .38181 Mtetra
+.232 .416 .839 r
+.70136 .38181 .71304 .41938 .75789 .44774 .74686 .40996 Mtetra
+.111 .321 .793 r
+.74686 .40996 .75789 .44774 .80541 .48802 .79508 .45013 Mtetra
+.003 .232 .741 r
+.79508 .45013 .80541 .48802 .8563 .54154 .84673 .50367 Mtetra
+0 .152 .689 r
+.84673 .50367 .8563 .54154 .91141 .61002 .9027 .57237 Mtetra
+.931 .851 .741 r
+.26798 .63888 .28886 .66074 .33277 .58528 .31314 .56201 Mtetra
+.917 .856 .767 r
+.31314 .56201 .33277 .58528 .375 .52189 .3565 .49742 Mtetra
+.896 .858 .796 r
+.3565 .49742 .375 .52189 .41599 .46963 .39851 .44416 Mtetra
+.866 .856 .83 r
+.39851 .44416 .41599 .46963 .45615 .4278 .43961 .40149 Mtetra
+.822 .847 .867 r
+.43961 .40149 .45615 .4278 .49586 .39593 .4802 .3689 Mtetra
+.76 .826 .903 r
+.4802 .3689 .49586 .39593 .53552 .3737 .52068 .34608 Mtetra
+.673 .787 .934 r
+.52068 .34608 .53552 .3737 .57549 .36101 .56144 .33292 Mtetra
+.558 .723 .951 r
+.56144 .33292 .57549 .36101 .61617 .35792 .60289 .32948 Mtetra
+.415 .632 .944 r
+.60289 .32948 .61617 .35792 .65797 .3647 .64547 .33603 Mtetra
+.257 .518 .909 r
+.64547 .33603 .65797 .3647 .70136 .38181 .68965 .35304 Mtetra
+.099 .394 .85 r
+.68965 .35304 .70136 .38181 .74686 .40996 .73599 .38125 Mtetra
+0 .274 .779 r
+.73599 .38125 .74686 .40996 .79508 .45013 .7851 .42169 Mtetra
+0 .167 .705 r
+.7851 .42169 .79508 .45013 .84673 .50367 .83776 .47573 Mtetra
+0 .078 .639 r
+.83776 .47573 .84673 .50367 .9027 .57237 .89487 .54524 Mtetra
+.949 .895 .74 r
+.24504 .6273 .26798 .63888 .31314 .56201 .2917 .54854 Mtetra
+.935 .906 .769 r
+.2917 .54854 .31314 .56201 .3565 .49742 .3364 .4824 Mtetra
+.914 .916 .805 r
+.3364 .4824 .3565 .49742 .39851 .44416 .37964 .42784 Mtetra
+.882 .923 .846 r
+.37964 .42784 .39851 .44416 .43961 .40149 .42186 .38411 Mtetra
+.833 .922 .893 r
+.42186 .38411 .43961 .40149 .4802 .3689 .4635 .35067 Mtetra
+.758 .906 .942 r
+.4635 .35067 .4802 .3689 .52068 .34608 .50498 .32719 Mtetra
+.646 .864 .982 r
+.50498 .32719 .52068 .34608 .56144 .33292 .5467 .31356 Mtetra
+.49 .781 .996 r
+.5467 .31356 .56144 .33292 .60289 .32948 .5891 .30983 Mtetra
+.297 .654 .97 r
+.5891 .30983 .60289 .32948 .64547 .33603 .63263 .31628 Mtetra
+.093 .497 .901 r
+.63263 .31628 .64547 .33603 .68965 .35304 .67779 .33341 Mtetra
+0 .336 .806 r
+.67779 .33341 .68965 .35304 .73599 .38125 .72517 .36198 Mtetra
+0 .194 .706 r
+.72517 .36198 .73599 .38125 .7851 .42169 .77541 .40307 Mtetra
+0 .078 .617 r
+.77541 .40307 .7851 .42169 .83776 .47573 .82933 .45815 Mtetra
+0 0 .544 r
+.82933 .45815 .83776 .47573 .89487 .54524 .88789 .52917 Mtetra
+.956 .935 .728 r
+.21963 .62672 .24504 .6273 .2917 .54854 .26808 .54555 Mtetra
+.939 .952 .758 r
+.26808 .54555 .2917 .54854 .3364 .4824 .31438 .47742 Mtetra
+.914 .968 .795 r
+.31438 .47742 .3364 .4824 .37964 .42784 .35907 .42124 Mtetra
+.874 .981 .839 r
+.35907 .42124 .37964 .42784 .42186 .38411 .40263 .37621 Mtetra
+.81 .984 .889 r
+.40263 .37621 .42186 .38411 .4635 .35067 .44552 .34176 Mtetra
+.707 .966 .938 r
+.44552 .34176 .4635 .35067 .50498 .32719 .48819 .31755 Mtetra
+.551 .906 .969 r
+.48819 .31755 .50498 .32719 .5467 .31356 .53106 .30343 Mtetra
+.338 .785 .957 r
+.53106 .30343 .5467 .31356 .5891 .30983 .5746 .29947 Mtetra
+.094 .607 .888 r
+.5746 .29947 .5891 .30983 .63263 .31628 .61928 .30597 Mtetra
+0 .409 .778 r
+.61928 .30597 .63263 .31628 .67779 .33341 .66564 .32346 Mtetra
+0 .229 .658 r
+.66564 .32346 .67779 .33341 .72517 .36198 .71428 .35274 Mtetra
+0 .085 .553 r
+.71428 .35274 .72517 .36198 .77541 .40307 .76592 .39496 Mtetra
+.529 .024 0 r
+.76592 .39496 .77541 .40307 .82933 .45815 .82139 .45168 Mtetra
+.587 .104 0 r
+.82139 .45168 .82933 .45815 .88789 .52917 .88175 .525 Mtetra
+.943 .962 .698 r
+.19124 .63821 .21963 .62672 .26808 .54555 .24181 .55399 Mtetra
+.917 .978 .722 r
+.24181 .55399 .26808 .54555 .31438 .47742 .29001 .48339 Mtetra
+.877 .992 .751 r
+.29001 .48339 .31438 .47742 .35907 .42124 .33642 .42521 Mtetra
+.814 .998 .783 r
+.33642 .42521 .35907 .42124 .40263 .37621 .38157 .37861 Mtetra
+.715 .985 .813 r
+.38157 .37861 .40263 .37621 .44552 .34176 .42595 .34296 Mtetra
+.565 .936 .83 r
+.42595 .34296 .44552 .34176 .48819 .31755 .47002 .3179 Mtetra
+.355 .829 .814 r
+.47002 .3179 .48819 .31755 .53106 .30343 .51427 .30329 Mtetra
+.103 .658 .75 r
+.51427 .30329 .53106 .30343 .5746 .29947 .55917 .29919 Mtetra
+.143 0 0 r
+.55917 .29919 .5746 .29947 .61928 .30597 .60523 .30593 Mtetra
+.343 0 0 r
+.60523 .30593 .61928 .30597 .66564 .32346 .65303 .32406 Mtetra
+.488 0 0 r
+.65303 .32406 .66564 .32346 .71428 .35274 .70321 .35445 Mtetra
+.586 .023 0 r
+.70321 .35445 .71428 .35274 .76592 .39496 .75653 .39835 Mtetra
+.652 .115 0 r
+.75653 .39835 .76592 .39496 .82139 .45168 .81391 .45744 Mtetra
+.696 .182 0 r
+.81391 .45744 .82139 .45168 .88175 .525 .87648 .53401 Mtetra
+.9 .965 .644 r
+.15922 .66324 .19124 .63821 .24181 .55399 .21231 .57524 Mtetra
+.854 .97 .653 r
+.21231 .57524 .24181 .55399 .29001 .48339 .26277 .50157 Mtetra
+.786 .966 .66 r
+.26277 .50157 .29001 .48339 .33642 .42521 .31122 .44094 Mtetra
+.685 .942 .661 r
+.31122 .44094 .33642 .42521 .38157 .37861 .35825 .39243 Mtetra
+.54 .886 .648 r
+.35825 .39243 .38157 .37861 .42595 .34296 .40439 .35537 Mtetra
+0 0 0 r
+.40439 .35537 .42595 .34296 .47002 .3179 .45014 .32936 Mtetra
+.45014 .32936 .47002 .3179 .51427 .30329 .49602 .31424 Mtetra
+.113 0 0 r
+.49602 .31424 .51427 .30329 .55917 .29919 .54253 .31011 Mtetra
+.313 0 0 r
+.54253 .31011 .55917 .29919 .60523 .30593 .59024 .31729 Mtetra
+.468 0 0 r
+.59024 .31729 .60523 .30593 .65303 .32406 .63976 .33641 Mtetra
+.58 .008 0 r
+.63976 .33641 .65303 .32406 .70321 .35445 .69178 .36841 Mtetra
+.659 .105 0 r
+.69178 .36841 .70321 .35445 .75653 .39835 .74714 .41466 Mtetra
+.715 .18 0 r
+.74714 .41466 .75653 .39835 .81391 .45744 .80684 .47703 Mtetra
+.753 .236 0 r
+.80684 .47703 .81391 .45744 .87648 .53401 .87212 .55804 Mtetra
+.824 .935 .565 r
+.12269 .70389 .15922 .66324 .21231 .57524 .17882 .61117 Mtetra
+.75 .918 .551 r
+.17882 .61117 .21231 .57524 .26277 .50157 .23197 .53371 Mtetra
+.647 .882 .529 r
+.23197 .53371 .26277 .50157 .31122 .44094 .28286 .47008 Mtetra
+.51 .818 .494 r
+.28286 .47008 .31122 .44094 .35825 .39243 .33213 .41926 Mtetra
+0 0 0 r
+.33213 .41926 .35825 .39243 .40439 .35537 .38035 .38053 Mtetra
+.38035 .38053 .40439 .35537 .45014 .32936 .42809 .35343 Mtetra
+.065 0 0 r
+.42809 .35343 .45014 .32936 .49602 .31424 .4759 .33782 Mtetra
+.25 0 0 r
+.4759 .33782 .49602 .31424 .54253 .31011 .52434 .33377 Mtetra
+.405 0 0 r
+.52434 .33377 .54253 .31011 .59024 .31729 .57401 .34168 Mtetra
+.526 0 0 r
+.57401 .34168 .59024 .31729 .63976 .33641 .62558 .36222 Mtetra
+.618 .08 0 r
+.62558 .36222 .63976 .33641 .69178 .36841 .67982 .39647 Mtetra
+.686 .159 0 r
+.67982 .39647 .69178 .36841 .74714 .41466 .73764 .44593 Mtetra
+.737 .221 0 r
+.73764 .44593 .74714 .41466 .80684 .47703 .80014 .51271 Mtetra
+.773 .27 0 r
+.80014 .51271 .80684 .47703 .87212 .55804 .86874 .5997 Mtetra
+.72 .874 .468 r
+.08055 .76298 .12269 .70389 .17882 .61117 .14033 .66439 Mtetra
+.619 .83 .432 r
+.14033 .66439 .17882 .61117 .23197 .53371 .19673 .58223 Mtetra
+0 0 0 r
+.19673 .58223 .23197 .53371 .28286 .47008 .25054 .51492 Mtetra
+.25054 .51492 .28286 .47008 .33213 .41926 .30248 .4613 Mtetra
+.30248 .4613 .33213 .41926 .38035 .38053 .35319 .42057 Mtetra
+.015 0 0 r
+.35319 .42057 .38035 .38053 .42809 .35343 .4033 .39224 Mtetra
+.182 0 0 r
+.4033 .39224 .42809 .35343 .4759 .33782 .45341 .37613 Mtetra
+.329 0 0 r
+.45341 .37613 .4759 .33782 .52434 .33377 .50413 .37236 Mtetra
+.452 0 0 r
+.50413 .37236 .52434 .33377 .57401 .34168 .55614 .38135 Mtetra
+.551 .047 .012 r
+.55614 .38135 .57401 .34168 .62558 .36222 .61017 .4039 Mtetra
+.629 .127 .039 r
+.61017 .4039 .62558 .36222 .67982 .39647 .66707 .4412 Mtetra
+.69 .192 .056 r
+.66707 .4412 .67982 .39647 .73764 .44593 .72787 .495 Mtetra
+.738 .245 .067 r
+.72787 .495 .73764 .44593 .80014 .51271 .7938 .56772 Mtetra
+.775 .289 .072 r
+.7938 .56772 .80014 .51271 .86874 .5997 .86647 .66269 Mtetra
+0 0 0 r
+.03124 .84448 .08055 .76298 .14033 .66439 .0955 .73851 Mtetra
+.0955 .73851 .14033 .66439 .19673 .58223 .15584 .65049 Mtetra
+.15584 .65049 .19673 .58223 .25054 .51492 .21318 .57862 Mtetra
+.21318 .57862 .25054 .51492 .30248 .4613 .26834 .52158 Mtetra
+.26834 .52158 .30248 .4613 .35319 .42057 .32205 .47845 Mtetra
+.117 0 0 r
+.32205 .47845 .35319 .42057 .4033 .39224 .37499 .44871 Mtetra
+.255 0 0 r
+.37499 .44871 .4033 .39224 .45341 .37613 .42784 .43214 Mtetra
+.375 0 .033 r
+.42784 .43214 .45341 .37613 .50413 .37236 .48131 .4289 Mtetra
+.476 .01 .068 r
+.48131 .4289 .50413 .37236 .55614 .38135 .53612 .43947 Mtetra
+.56 .089 .094 r
+.53612 .43947 .55614 .38135 .61017 .4039 .5931 .46479 Mtetra
+.629 .156 .113 r
+.5931 .46479 .61017 .4039 .66707 .4412 .65323 .50626 Mtetra
+.685 .213 .125 r
+.65323 .50626 .66707 .4412 .72787 .495 .71764 .56593 Mtetra
+.73 .26 .131 r
+.71764 .56593 .72787 .495 .7938 .56772 .78777 .64664 Mtetra
+.767 .299 .133 r
+.78777 .64664 .7938 .56772 .86647 .66269 .86549 .75238 Mtetra
+P
+p
+.002 w
+.80152 .02834 m
+.90988 .41935 L
+s
+.90988 .41935 m
+.97166 .9705 L
+s
+.97166 .9705 m
+.86748 .77489 L
+s
+.86748 .77489 m
+.80152 .02834 L
+s
+.12817 .19851 m
+.02834 .86386 L
+s
+.02834 .86386 m
+.86748 .77489 L
+s
+.86748 .77489 m
+.80152 .02834 L
+s
+.80152 .02834 m
+.12817 .19851 L
+s
+P
+% End of Graphics
+MathPictureEnd
+%%PSTrailer
+end
+
+%%EPS Trailer
