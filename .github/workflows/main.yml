@@ -7,8 +7,8 @@ jobs:
    - uses: actions/checkout@v1 
    - name: install and run make4ht
      run: |
-       sudo apt-get update
-       sudo apt-get install texlive-extra-utils texlive-luatex
+       sudo apt-get update -y
+       sudo apt-get install texlive-extra-utils texlive-luatex tex4ht -y
        make4ht -d out polyfaq.tex "mathml,mathjax"
        bibtex polyfaq
        make4ht -d out polyfaq.tex "mathml,mathjax"
