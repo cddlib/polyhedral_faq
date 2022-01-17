@@ -15,8 +15,7 @@ Building html
 =============
 
 ```
-htlatex polyfaq
+make4ht polyfaq.tex "mathml,mathjax"
 bibtex polyfaq
-htlatex polyfaq
-htlatex polyfaq
+make4ht polyfaq.tex "mathml,mathjax"
 ```
