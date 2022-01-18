@@ -295,8 +295,8 @@ For $d \ge 2$ and $0 \le k \le d-1$,
 \binom{n-d+r-1}{r} \binom{r}{k}
 +
 \sum_{r=\lfloor d/2 \rfloor+1}^{d}
-\binom{n-r-1}{d-r} \binom{r}{k}
-\].  In particular,
+\binom{n-r-1}{d-r} \binom{r}{k} .
+\]  In particular,
 \begin{align} \label{polytope:FacetUB}
  f_{d-1}(C(d,n))  
   &= \binom{n-\RF{d/2}}{\left\lfloor \frac{d}{2} \right\rfloor} + \binom{n-\FL{d/2}-1}{\left\lceil \frac{d}{2} \right\rceil -1}\\
@@ -869,7 +869,7 @@ As we discussed in \ref{polytope:Vredundancy2}, there is
 a very promising idea to improve the naive LP technique above.
 It is proposed by Clarkson  \cite{c-mosga-94} .
 The main idea is the following.  Let's denote by $m'$ the number of 
-nonredundant constraints which is known.  Clarkson's algorithm uses
+nonredundant constraints which is not known in advance.  Clarkson's algorithm uses
 the same LP technique but for a subsystem $A' x \le b'$ of $A x \le b$
 of size at most $m'$.
 \begin{align} \label{eq:Hredundancy_Clarkson}
