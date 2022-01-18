@@ -9,9 +9,9 @@ jobs:
      run: |
        sudo apt-get update -y
        sudo apt-get install texlive-extra-utils texlive-luatex tex4ht texlive-latex-extra -y
-       make4ht -d out polyfaq.tex "mathml,mathjax"
+       make4ht -u -d out polyfaq.tex "mathml,mathjax"
        bibtex polyfaq
-       make4ht -d out polyfaq.tex "mathml,mathjax"
+       make4ht -u -d out polyfaq.tex "mathml,mathjax"
        cd out
        ln -s polyfaq.html index.html
    - name: Deploy
