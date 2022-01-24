@@ -1,12 +1,12 @@
 <!DOCTYPE html> 
-<html lang='en-US' xml:lang='en-US'> 
+<html xml:lang='en-US' lang='en-US'> 
 <head><title>Frequently Asked Questions in Polyhedral Computation</title> 
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (http://www.tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
 <link href='polyfaq.css' rel='stylesheet' type='text/css' /> 
 <meta content='polyfaq.tex' name='src' /> 
- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML' type='text/javascript'></script>  
+ <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML'></script>  
 </head><body>
    <div class='maketitle'>
                                                                                            
@@ -23,7 +23,7 @@
    </div>
 <div class='center'>
 <!-- l. 74 --><p class='noindent'>
-</p><!-- l. 75 --><p class='noindent'><img width='113' height='113' src='Figures/vtest_fig_vo.png' alt='PIC' /> <img width='116' height='113' src='Figures/vtest_fig_vo3d.png' alt='PIC' /> <img width='113' height='113' src='Figures/vtest_fig_vode.png' alt='PIC' /></p></div>
+</p><!-- l. 75 --><p class='noindent'><img src='Figures/vtest_fig_vo.png' height='113' alt='PIC' width='113' /> <img src='Figures/vtest_fig_vo3d.png' height='113' alt='PIC' width='116' /> <img src='Figures/vtest_fig_vode.png' height='113' alt='PIC' width='113' /></p></div>
    <h3 class='likesectionHead'><a id='x1-1000'></a>Contents</h3>
    <div class='tableofcontents'>
    <span class='sectionToc'>1 <a href='#x1-20001' id='QQ2-1-2'>What is Polyhedral Computation FAQ?</a></span>
@@ -165,7 +165,7 @@ all <!-- l. 146 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inl
 if it is represented as </p><table class='equation-star'><tr><td>
                                                                                            
                                                                                            
-<!-- l. 149 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 149 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                                   <mi>F</mi> <mo class='MathClass-rel'>=</mo> <mi>P</mi> <mo class='MathClass-bin'>∩</mo><mrow><mo class='MathClass-open'>{</mo><mrow><mi>x</mi> <mo class='MathClass-punc'>:</mo> <msup><mrow><mi>c</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi> <mo class='MathClass-rel'>=</mo> <mi>d</mi></mrow><mo class='MathClass-close'>}</mo></mrow>
 </math></td></tr></table>
 <!-- l. 152 --><p class='indent'>   for some valid inequality <!-- l. 152 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>c</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mi>d</mi></math>. By
@@ -230,7 +230,7 @@ duality theorem states that every convex polytope admits a dual.
 </span><span class='cmti-12'>polytope in </span><!-- l. 198 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi></mrow></msup></math><span class='cmti-12'>.
 </span><span class='cmti-12'>In particular, one can construct a dual polytope by the following “polar” construction:</span>
 </p><table class='equation-star'><tr><td>
-<!-- l. 200 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 200 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                            <msup><mrow><mi>P</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup> <mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>{</mo><mrow><mi>y</mi> <mo class='MathClass-rel'>∈</mo> <msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi></mrow></msup> <mo class='MathClass-punc'>:</mo> <msup><mrow><mi>x</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>y</mi> <mo class='MathClass-rel'>≤</mo> <mn>1</mn><mstyle class='text'><mtext> for all </mtext></mstyle><mi>x</mi> <mo class='MathClass-rel'>∈</mo> <mi>P</mi></mrow><mo class='MathClass-close'>}</mo></mrow>
 </math></td></tr></table>
 <!-- l. 203 --><p class='indent'>   <span class='cmti-12'>where</span>
@@ -244,7 +244,7 @@ duality theorem states that every convex polytope admits a dual.
 in its interior, the polytope <!-- l. 207 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>P</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup></math>
 is called the <span class='cmti-12'>polar </span>of <!-- l. 207 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>P</mi></math>.
 One can easily show that </p><table class='equation-star'><tr><td>
-<!-- l. 209 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 209 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                          <msup><mrow><mi>P</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup> <mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>{</mo><mrow><mi>y</mi> <mo class='MathClass-rel'>∈</mo> <msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi></mrow></msup> <mo class='MathClass-punc'>:</mo> <msup><mrow><mi>v</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>y</mi> <mo class='MathClass-rel'>≤</mo> <mn>1</mn><mstyle class='text'><mtext> for all </mtext></mstyle><mi>v</mi> <mo class='MathClass-rel'>∈</mo> <mi>V</mi> <mrow><mo class='MathClass-open'>(</mo><mrow><mi>P</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow><mo class='MathClass-close'>}</mo></mrow>
 </math></td></tr></table>
 <!-- l. 212 --><p class='indent'>   where <!-- l. 212 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>V</mi> <mrow><mo class='MathClass-open'>(</mo><mrow><mi>P</mi></mrow><mo class='MathClass-close'>)</mo></mrow></math> denote the set of
@@ -344,7 +344,7 @@ attained by the cyclic polytopes.
 <!-- l. 279 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>d</mi></math><span class='cmti-12'>-polytope
 </span><span class='cmti-12'>with </span><!-- l. 279 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>n</mi></math>
 <span class='cmti-12'>vertices,</span> </p><table class='equation-star'><tr><td>
-<!-- l. 280 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 280 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                            <msub><mrow><mi>f</mi></mrow><mrow><mi>k</mi></mrow></msub><mrow><mo class='MathClass-open'>(</mo><mrow><mi>P</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>≤</mo> <msub><mrow><mi>f</mi></mrow><mrow><mi>k</mi></mrow></msub><mrow><mo class='MathClass-open'>(</mo><mrow><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi><mo class='MathClass-punc'>,</mo><mi>n</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow><mo class='MathClass-close'>)</mo></mrow><mo class='MathClass-punc'>,</mo><mspace width='0.28em' class='thickpace'></mspace><mi class='MathClass-op'>∀</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mi>k</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><mi>d</mi> <mo class='MathClass-bin'>−</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo>
 </math></td></tr></table>
                                                                                            
@@ -363,26 +363,26 @@ can be explicitely given and thus one can evaluate the order of the upper bound 
 <span class='cmbx-12'>Theorem 3</span> </span><a id='x1-120023'></a> <span class='cmti-12'>For </span><!-- l. 291 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>d</mi> <mo class='MathClass-rel'>≥</mo> <mn>2</mn></math>
 <span class='cmti-12'>and </span><!-- l. 291 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mn>0</mn> <mo class='MathClass-rel'>≤</mo> <mi>k</mi> <mo class='MathClass-rel'>≤</mo> <mi>d</mi> <mo class='MathClass-bin'>−</mo> <mn>1</mn></math><span class='cmti-12'>,</span>
 </p><table class='equation-star'><tr><td>
-<!-- l. 292 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 292 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
             <msub><mrow><mi>f</mi></mrow><mrow><mi>k</mi></mrow></msub><mrow><mo class='MathClass-open'>(</mo><mrow><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi><mo class='MathClass-punc'>,</mo><mi>n</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
-  </mrow><mrow><mi>r</mi><mo class='MathClass-rel'>=</mo><mn>0</mn></mrow><mrow><mrow><mo class='MathClass-open'>⌊</mo><mrow><mi>d</mi><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow><mo class='MathClass-close'>⌋</mo></mrow></mrow></munderover><mfenced close=')' open='(' separators=''><mfrac linethickness='0.0pt'><mrow><mi>n</mi> <mo class='MathClass-bin'>−</mo> <mi>d</mi> <mo class='MathClass-bin'>+</mo> <mi>r</mi> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow>
-        <mrow><mi>r</mi></mrow></mfrac></mfenced><mfenced close=')' open='(' separators=''><mfrac linethickness='0.0pt'><mrow>       <mi>r</mi></mrow> 
+  </mrow><mrow><mi>r</mi><mo class='MathClass-rel'>=</mo><mn>0</mn></mrow><mrow><mrow><mo class='MathClass-open'>⌊</mo><mrow><mi>d</mi><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow><mo class='MathClass-close'>⌋</mo></mrow></mrow></munderover><mfenced separators='' open='(' close=')'><mfrac linethickness='0.0pt'><mrow><mi>n</mi> <mo class='MathClass-bin'>−</mo> <mi>d</mi> <mo class='MathClass-bin'>+</mo> <mi>r</mi> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow>
+        <mrow><mi>r</mi></mrow></mfrac></mfenced><mfenced separators='' open='(' close=')'><mfrac linethickness='0.0pt'><mrow>       <mi>r</mi></mrow> 
 <mrow><mi>k</mi></mrow></mfrac></mfenced> <mo class='MathClass-bin'>+</mo><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
-  </mrow><mrow><mi>r</mi><mo class='MathClass-rel'>=</mo><mrow><mo class='MathClass-open'>⌊</mo><mrow><mi>d</mi><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow><mo class='MathClass-close'>⌋</mo></mrow><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow><mrow><mi>d</mi></mrow></munderover><mfenced close=')' open='(' separators=''><mfrac linethickness='0.0pt'><mrow><mi>n</mi> <mo class='MathClass-bin'>−</mo> <mi>r</mi> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow>
-   <mrow><mi>d</mi> <mo class='MathClass-bin'>−</mo> <mi>r</mi></mrow></mfrac></mfenced><mfenced close=')' open='(' separators=''><mfrac linethickness='0.0pt'><mrow>   <mi>r</mi></mrow> 
+  </mrow><mrow><mi>r</mi><mo class='MathClass-rel'>=</mo><mrow><mo class='MathClass-open'>⌊</mo><mrow><mi>d</mi><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow><mo class='MathClass-close'>⌋</mo></mrow><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow><mrow><mi>d</mi></mrow></munderover><mfenced separators='' open='(' close=')'><mfrac linethickness='0.0pt'><mrow><mi>n</mi> <mo class='MathClass-bin'>−</mo> <mi>r</mi> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow>
+   <mrow><mi>d</mi> <mo class='MathClass-bin'>−</mo> <mi>r</mi></mrow></mfrac></mfenced><mfenced separators='' open='(' close=')'><mfrac linethickness='0.0pt'><mrow>   <mi>r</mi></mrow> 
 <mrow><mi>k</mi></mrow></mfrac></mfenced><mo class='MathClass-punc'>.</mo>
 </math></td></tr></table>
 <!-- l. 298 --><p class='indent'>   <span class='cmti-12'>In particular,</span>
 </p><!-- tex4ht:inline --><!-- l. 303 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='align'>
-                     <mtr><mtd columnalign='right' class='align-odd'><msub><mrow><mi>f</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>−</mo><mn>1</mn></mrow></msub><mrow><mo class='MathClass-open'>(</mo><mrow><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi><mo class='MathClass-punc'>,</mo><mi>n</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow><mo class='MathClass-close'>)</mo></mrow></mtd>                     <mtd class='align-even'> <mo class='MathClass-rel'>=</mo><mfenced close=')' open='(' separators=''><mfrac linethickness='0.0pt'><mrow> <mi>n</mi> <mo class='MathClass-bin'>−</mo><mfenced close='⌉' open='⌈' separators=''><mrow><mi>d</mi><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow></mfenced></mrow> 
-    <mrow><mfenced close='⌋' open='⌊' separators=''><mrow><mfrac><mrow><mi>d</mi></mrow>
-<mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow></mfrac></mfenced>       <mo class='MathClass-bin'>+</mo><mfenced close=')' open='(' separators=''><mfrac linethickness='0.0pt'><mrow> <mi>n</mi> <mo class='MathClass-bin'>−</mo><mfenced close='⌋' open='⌊' separators=''><mrow><mi>d</mi><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow></mfenced> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow> 
-    <mrow><mfenced close='⌉' open='⌈' separators=''><mrow><mfrac><mrow><mi>d</mi></mrow>
-<mrow><mn>2</mn></mrow></mfrac></mrow></mfenced> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow></mfrac></mfenced>    <mspace width='2em'></mspace></mtd>                                          <mtd columnalign='right' class='align-label'><mstyle id='x1-12003r1' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(1)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
-                     </mtd></mtr><mtr><mtd columnalign='right' class='align-odd'></mtd>                                  <mtd class='align-even'> <mo class='MathClass-rel'>=</mo> <mi>O</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msup><mrow><mi>n</mi></mrow><mrow><mfenced close='⌋' open='⌊' separators=''><mrow><mfrac><mrow><mi>d</mi></mrow>
+                     <mtr><mtd columnalign='right' class='align-odd'><msub><mrow><mi>f</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>−</mo><mn>1</mn></mrow></msub><mrow><mo class='MathClass-open'>(</mo><mrow><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi><mo class='MathClass-punc'>,</mo><mi>n</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow><mo class='MathClass-close'>)</mo></mrow></mtd>                     <mtd class='align-even'> <mo class='MathClass-rel'>=</mo><mfenced separators='' open='(' close=')'><mfrac linethickness='0.0pt'><mrow> <mi>n</mi> <mo class='MathClass-bin'>−</mo><mfenced separators='' open='⌈' close='⌉'><mrow><mi>d</mi><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow></mfenced></mrow> 
+    <mrow><mfenced separators='' open='⌊' close='⌋'><mrow><mfrac><mrow><mi>d</mi></mrow>
+<mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow></mfrac></mfenced>       <mo class='MathClass-bin'>+</mo><mfenced separators='' open='(' close=')'><mfrac linethickness='0.0pt'><mrow> <mi>n</mi> <mo class='MathClass-bin'>−</mo><mfenced separators='' open='⌊' close='⌋'><mrow><mi>d</mi><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow></mfenced> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow> 
+    <mrow><mfenced separators='' open='⌈' close='⌉'><mrow><mfrac><mrow><mi>d</mi></mrow>
+<mrow><mn>2</mn></mrow></mfrac></mrow></mfenced> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow></mfrac></mfenced>    <mspace width='2em'></mspace></mtd>                                          <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-12003r1'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(1)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+                     </mtd></mtr><mtr><mtd columnalign='right' class='align-odd'></mtd>                                  <mtd class='align-even'> <mo class='MathClass-rel'>=</mo> <mi>O</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msup><mrow><mi>n</mi></mrow><mrow><mfenced separators='' open='⌊' close='⌋'><mrow><mfrac><mrow><mi>d</mi></mrow>
 <mrow><mn>2</mn></mrow></mfrac> 
    </mrow></mfenced>
-    </mrow></msup></mrow><mo class='MathClass-close'>)</mo></mrow><mstyle class='text'><mtext>   for any fixed </mtext><mstyle class='math'><mi>d</mi></mstyle><mtext></mtext></mstyle><mo class='MathClass-punc'>.</mo><mspace width='2em'></mspace></mtd>                                          <mtd columnalign='right' class='align-label'><mstyle id='x1-12004r2' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(2)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+    </mrow></msup></mrow><mo class='MathClass-close'>)</mo></mrow><mstyle class='text'><mtext>   for any fixed </mtext><mstyle class='math'><mi>d</mi></mstyle><mtext></mtext></mstyle><mo class='MathClass-punc'>.</mo><mspace width='2em'></mspace></mtd>                                          <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-12004r2'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(2)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
    </mtd></mtr></mtable></math>
                                                                                            
                                                                                            
@@ -390,11 +390,11 @@ can be explicitely given and thus one can evaluate the order of the upper bound 
 <!-- l. 307 --><p class='noindent'>For example,
 </p>
    <table class='equation-star'><tr><td>
-<!-- l. 310 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
- <mtable columnlines='none none none none none' equalcolumns='false' equalrows='false' class='array' align='axis' style=''> <mtr><mtd columnalign='left' class='array'><mi>P</mi>       </mtd><mtd columnalign='right' class='array'><msub><mrow><mi>f</mi></mrow><mrow><mn>0</mn></mrow></msub></mtd><mtd columnalign='right' class='array'> <msub><mrow><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd columnalign='right' class='array'>  <msub><mrow><mi>f</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd columnalign='right' class='array'>  <msub><mrow><mi>f</mi></mrow><mrow><mn>3</mn></mrow></msub></mtd><mtd columnalign='right' class='array'> <msub><mrow><mi>f</mi></mrow><mrow><mn>4</mn></mrow></msub></mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>5</mn><mo class='MathClass-punc'>,</mo> <mn>10</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mtd><mtd columnalign='right' class='array'><mn>10</mn></mtd><mtd columnalign='right' class='array'> <mn>45</mn></mtd><mtd columnalign='right' class='array'> <mn>100</mn></mtd><mtd columnalign='right' class='array'> <mn>105</mn></mtd><mtd columnalign='right' class='array'> <mn>42</mn></mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>5</mn><mo class='MathClass-punc'>,</mo> <mn>20</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mtd><mtd columnalign='right' class='array'><mn>20</mn></mtd><mtd columnalign='right' class='array'><mn>190</mn></mtd><mtd columnalign='right' class='array'> <mn>580</mn></mtd><mtd columnalign='right' class='array'> <mn>680</mn></mtd><mtd columnalign='right' class='array'><mn>272</mn></mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>5</mn><mo class='MathClass-punc'>,</mo> <mn>30</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mtd><mtd columnalign='right' class='array'><mn>30</mn></mtd><mtd columnalign='right' class='array'><mn>435</mn></mtd><mtd columnalign='right' class='array'><mn>1460</mn></mtd><mtd columnalign='right' class='array'><mn>1755</mn></mtd><mtd columnalign='right' class='array'><mn>702</mn></mtd></mtr><!-- lrrrrr --></mtable>
+<!-- l. 310 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
+ <mtable align='axis' class='array' style='' equalrows='false' columnlines='none none none none none' equalcolumns='false'> <mtr><mtd class='array' columnalign='left'><mi>P</mi>       </mtd><mtd class='array' columnalign='right'><msub><mrow><mi>f</mi></mrow><mrow><mn>0</mn></mrow></msub></mtd><mtd class='array' columnalign='right'> <msub><mrow><mi>f</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd class='array' columnalign='right'>  <msub><mrow><mi>f</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd class='array' columnalign='right'>  <msub><mrow><mi>f</mi></mrow><mrow><mn>3</mn></mrow></msub></mtd><mtd class='array' columnalign='right'> <msub><mrow><mi>f</mi></mrow><mrow><mn>4</mn></mrow></msub></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>5</mn><mo class='MathClass-punc'>,</mo> <mn>10</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mtd><mtd class='array' columnalign='right'><mn>10</mn></mtd><mtd class='array' columnalign='right'> <mn>45</mn></mtd><mtd class='array' columnalign='right'> <mn>100</mn></mtd><mtd class='array' columnalign='right'> <mn>105</mn></mtd><mtd class='array' columnalign='right'> <mn>42</mn></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>5</mn><mo class='MathClass-punc'>,</mo> <mn>20</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mtd><mtd class='array' columnalign='right'><mn>20</mn></mtd><mtd class='array' columnalign='right'><mn>190</mn></mtd><mtd class='array' columnalign='right'> <mn>580</mn></mtd><mtd class='array' columnalign='right'> <mn>680</mn></mtd><mtd class='array' columnalign='right'><mn>272</mn></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>5</mn><mo class='MathClass-punc'>,</mo> <mn>30</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mtd><mtd class='array' columnalign='right'><mn>30</mn></mtd><mtd class='array' columnalign='right'><mn>435</mn></mtd><mtd class='array' columnalign='right'><mn>1460</mn></mtd><mtd class='array' columnalign='right'><mn>1755</mn></mtd><mtd class='array' columnalign='right'><mn>702</mn></mtd></mtr><!-- lrrrrr --></mtable>
 </math></td></tr></table>
 <!-- l. 319 --><p class='indent'>   The upper bound theorem can be written in dual form which gives, for example, the maximum number of
 vertices in a <!-- l. 321 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>d</mi></math>-polytope
@@ -407,7 +407,7 @@ facets.
 <!-- l. 324 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>d</mi></math><span class='cmti-12'>-polytope
 </span><span class='cmti-12'>with </span><!-- l. 324 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>m</mi></math>
 <span class='cmti-12'>facets,</span> </p><table class='equation-star'><tr><td>
-<!-- l. 325 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 325 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                         <msub><mrow><mi>f</mi></mrow><mrow><mi>k</mi></mrow></msub><mrow><mo class='MathClass-open'>(</mo><mrow><mi>P</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>≤</mo> <msub><mrow><mi>f</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>−</mo><mi>k</mi><mo class='MathClass-bin'>−</mo><mn>1</mn></mrow></msub><mrow><mo class='MathClass-open'>(</mo><mrow><mi>C</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi><mo class='MathClass-punc'>,</mo><mi>m</mi></mrow><mo class='MathClass-close'>)</mo></mrow></mrow><mo class='MathClass-close'>)</mo></mrow><mo class='MathClass-punc'>,</mo><mspace width='0.28em' class='thickpace'></mspace><mi class='MathClass-op'>∀</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mi>k</mi> <mo class='MathClass-rel'>=</mo> <mn>0</mn><mo class='MathClass-punc'>,</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><mi>d</mi> <mo class='MathClass-bin'>−</mo> <mn>2</mn><mo class='MathClass-punc'>,</mo>
 </math></td></tr></table>
 <!-- l. 328 --><p class='indent'>   <span class='cmti-12'>holds.</span>
@@ -465,7 +465,7 @@ every finitely generated set is a polyhedron. More precisely, for two subsets
 <span class='cmti-12'>Minkowski sum </span>of <!-- l. 379 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>P</mi></math>
 and <!-- l. 379 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>Q</mi></math>:
 <!-- tex4ht:inline --></p><!-- l. 380 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
-<mtable columnalign='right center left' class='eqnarray-star'>
+<mtable class='eqnarray-star' columnalign='right center left'>
 <mtr><mtd class='eqnarray-1'> <mi>P</mi> <mo class='MathClass-bin'>+</mo> <mi>Q</mi></mtd><mtd class='eqnarray-2'>   <mo class='MathClass-rel'>=</mo></mtd><mtd class='eqnarray-3'>   <mrow><mo class='MathClass-open'>{</mo><mrow><mi>p</mi> <mo class='MathClass-bin'>+</mo> <mi>q</mi> <mo class='MathClass-punc'>:</mo> <mi>p</mi> <mo class='MathClass-rel'>∈</mo> <mi>P</mi><mstyle class='mbox'><mtext> and </mtext></mstyle><mi>q</mi> <mo class='MathClass-rel'>∈</mo> <mi>Q</mi></mrow><mo class='MathClass-close'>}</mo></mrow><mo class='MathClass-punc'>.</mo></mtd><mtd class='eqnarray-4'> <mtext class='eqnarray'></mtext></mtd>                                                  </mtr></mtable>
 </math>
 <!-- l. 383 --><p class='nopar'>
@@ -701,18 +701,18 @@ is, we calculate it for <!-- l. 625 --><math xmlns='http://www.w3.org/1998/Math/
 <div class='center'>
 <!-- l. 626 --><p class='noindent'>
 </p>
-<div class='tabular'> <table id='TBL-3' class='tabular'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /><col id='TBL-3-2' /></colgroup><tr id='TBL-3-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-1-1' style='text-align:right; white-space:nowrap;'><!-- l. 628 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>d</mi></math></td><td class='td11' id='TBL-3-1-2' style='text-align:right; white-space:nowrap;'><!-- l. 628 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>g</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi></mrow><mo class='MathClass-close'>)</mo></mrow></math></td>
-</tr><tr id='TBL-3-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-2-1' style='text-align:right; white-space:nowrap;'>                                                                             2</td><td class='td11' id='TBL-3-2-2' style='text-align:right; white-space:nowrap;'>                                                                            1</td></tr><tr id='TBL-3-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-3-1' style='text-align:right; white-space:nowrap;'> 3</td><td class='td11' id='TBL-3-3-2' style='text-align:right; white-space:nowrap;'> 2</td>
-</tr><tr id='TBL-3-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-4-1' style='text-align:right; white-space:nowrap;'>                                                                             4</td><td class='td11' id='TBL-3-4-2' style='text-align:right; white-space:nowrap;'>                                                                       6.76773</td></tr><tr id='TBL-3-5-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-5-1' style='text-align:right; white-space:nowrap;'> 5</td><td class='td11' id='TBL-3-5-2' style='text-align:right; white-space:nowrap;'> 31.7778</td>
-</tr><tr id='TBL-3-6-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-6-1' style='text-align:right; white-space:nowrap;'>                                                                             6</td><td class='td11' id='TBL-3-6-2' style='text-align:right; white-space:nowrap;'>                                                                       186.738</td></tr><tr id='TBL-3-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-7-1' style='text-align:right; white-space:nowrap;'> 7</td><td class='td11' id='TBL-3-7-2' style='text-align:right; white-space:nowrap;'> 1296.45</td>
-</tr><tr id='TBL-3-8-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-8-1' style='text-align:right; white-space:nowrap;'>                                                                             8</td><td class='td11' id='TBL-3-8-2' style='text-align:right; white-space:nowrap;'>                                                                       10261.8</td>
-</tr><tr id='TBL-3-9-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-9-1' style='text-align:right; white-space:nowrap;'>                                                                             9</td><td class='td11' id='TBL-3-9-2' style='text-align:right; white-space:nowrap;'>                                                                       90424.6</td>
-</tr><tr id='TBL-3-10-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-10-1' style='text-align:right; white-space:nowrap;'>                                                                            10</td><td class='td11' id='TBL-3-10-2' style='text-align:right; white-space:nowrap;'>                                                                       872190.</td>
-</tr><tr id='TBL-3-11-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-11-1' style='text-align:right; white-space:nowrap;'>                                                                            11</td><td class='td11' id='TBL-3-11-2' style='text-align:right; white-space:nowrap;'>                                                                  9.09402 E+06</td>
-</tr><tr id='TBL-3-12-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-12-1' style='text-align:right; white-space:nowrap;'>                                                                            12</td><td class='td11' id='TBL-3-12-2' style='text-align:right; white-space:nowrap;'>                                                                  1.01518 E+08</td>
-</tr><tr id='TBL-3-13-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-13-1' style='text-align:right; white-space:nowrap;'>                                                                            13</td><td class='td11' id='TBL-3-13-2' style='text-align:right; white-space:nowrap;'>                                                                  1.20414 E+09</td>
-</tr><tr id='TBL-3-14-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-14-1' style='text-align:right; white-space:nowrap;'>                                                                            14</td><td class='td11' id='TBL-3-14-2' style='text-align:right; white-space:nowrap;'>                                                                  1.50832 E+10</td>
-</tr><tr id='TBL-3-15-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-15-1' style='text-align:right; white-space:nowrap;'>                                                                            15</td><td class='td11' id='TBL-3-15-2' style='text-align:right; white-space:nowrap;'>                                                                  1.98520 E+11</td></tr></table>
+<div class='tabular'> <table class='tabular' id='TBL-3'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /><col id='TBL-3-2' /></colgroup><tr style='vertical-align:baseline;' id='TBL-3-1-'><td id='TBL-3-1-1' style='text-align:right; white-space:nowrap;' class='td11'><!-- l. 628 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>d</mi></math></td><td id='TBL-3-1-2' style='text-align:right; white-space:nowrap;' class='td11'><!-- l. 628 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>g</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi></mrow><mo class='MathClass-close'>)</mo></mrow></math></td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-2-'><td id='TBL-3-2-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                             2</td><td id='TBL-3-2-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                            1</td></tr><tr style='vertical-align:baseline;' id='TBL-3-3-'><td id='TBL-3-3-1' style='text-align:right; white-space:nowrap;' class='td11'> 3</td><td id='TBL-3-3-2' style='text-align:right; white-space:nowrap;' class='td11'> 2</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-4-'><td id='TBL-3-4-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                             4</td><td id='TBL-3-4-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                       6.76773</td></tr><tr style='vertical-align:baseline;' id='TBL-3-5-'><td id='TBL-3-5-1' style='text-align:right; white-space:nowrap;' class='td11'> 5</td><td id='TBL-3-5-2' style='text-align:right; white-space:nowrap;' class='td11'> 31.7778</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-6-'><td id='TBL-3-6-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                             6</td><td id='TBL-3-6-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                       186.738</td></tr><tr style='vertical-align:baseline;' id='TBL-3-7-'><td id='TBL-3-7-1' style='text-align:right; white-space:nowrap;' class='td11'> 7</td><td id='TBL-3-7-2' style='text-align:right; white-space:nowrap;' class='td11'> 1296.45</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-8-'><td id='TBL-3-8-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                             8</td><td id='TBL-3-8-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                       10261.8</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-9-'><td id='TBL-3-9-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                             9</td><td id='TBL-3-9-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                       90424.6</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-10-'><td id='TBL-3-10-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                            10</td><td id='TBL-3-10-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                       872190.</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-11-'><td id='TBL-3-11-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                            11</td><td id='TBL-3-11-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                  9.09402 E+06</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-12-'><td id='TBL-3-12-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                            12</td><td id='TBL-3-12-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                  1.01518 E+08</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-13-'><td id='TBL-3-13-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                            13</td><td id='TBL-3-13-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                  1.20414 E+09</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-14-'><td id='TBL-3-14-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                            14</td><td id='TBL-3-14-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                  1.50832 E+10</td>
+</tr><tr style='vertical-align:baseline;' id='TBL-3-15-'><td id='TBL-3-15-1' style='text-align:right; white-space:nowrap;' class='td11'>                                                                            15</td><td id='TBL-3-15-2' style='text-align:right; white-space:nowrap;' class='td11'>                                                                  1.98520 E+11</td></tr></table>
 </div></div>
 <!-- l. 637 --><p class='noindent'>
 </p>
@@ -735,9 +735,9 @@ behavior of <!-- l. 645 --><math xmlns='http://www.w3.org/1998/Math/MathML' disp
                                                                                            
                                                                                            
 </p><!-- tex4ht:inline --><!-- l. 650 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='align'>
-                                     <mtr><mtd columnalign='right' class='align-odd'><mi>f</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>&gt;</mo><msup><mrow> <mfenced close=')' open='(' separators=''><mrow>  <mfrac><mrow><mi>c</mi><mspace width='0.28em' class='thickpace'></mspace><mi>d</mi></mrow>
+                                     <mtr><mtd columnalign='right' class='align-odd'><mi>f</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>&gt;</mo><msup><mrow> <mfenced separators='' open='(' close=')'><mrow>  <mfrac><mrow><mi>c</mi><mspace width='0.28em' class='thickpace'></mspace><mi>d</mi></mrow>
 <mrow><mi class='qopname'> log</mi><mo> ⁡<!-- FUNCTION APPLICATION --> </mo><!-- nolimits --> <mi>d</mi></mrow></mfrac></mrow></mfenced></mrow><mrow><mfrac><mrow><mi>d</mi></mrow>
-<mrow><mn>4</mn></mrow></mfrac> </mrow></msup><mo class='MathClass-punc'>.</mo></mtd>                                     <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                     <mtd columnalign='right' class='align-label'><mstyle id='x1-20002r3' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(3)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+<mrow><mn>4</mn></mrow></mfrac> </mrow></msup><mo class='MathClass-punc'>.</mo></mtd>                                     <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                     <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-20002r3'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(3)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
    </mtd></mtr></mtable></math>
    </div>
 <!-- l. 652 --><p class='noindent'>This is a recent breakthrough in the theory of 0-1 polytopes.
@@ -830,14 +830,14 @@ is in <!-- l. 751 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='i
 linear programming (LP) technique <a href='#x1-390004'>4<!-- tex4ht:ref: Sec:LP  --></a>. An LP problem to be formulated for the question is the following.
 Let <!-- l. 754 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>S</mi> <mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>{</mo><mrow><msub><mrow><mi>p</mi></mrow><mrow><mn>1</mn></mrow></msub><mo class='MathClass-punc'>,</mo><msub><mrow><mi>p</mi></mrow><mrow><mn>2</mn></mrow></msub><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><msub><mrow><mi>p</mi></mrow><mrow><mi>n</mi></mrow></msub></mrow><mo class='MathClass-close'>}</mo></mrow></math>.
 </p><!-- tex4ht:inline --><!-- l. 762 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='align'>
-                          <mtr><mtd columnalign='right' class='align-odd'> <mtable columnlines='none none' equalcolumns='false' equalrows='false' class='array' align='axis' style=''> <mtr><mtd columnalign='left' class='array'><mstyle class='text'><mtext>find</mtext></mstyle>       </mtd><mtd columnalign='left' class='array'><mi>λ</mi>                         </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'><mstyle class='text'><mtext>satisfying</mtext></mstyle></mtd><mtd columnalign='left' class='array'><mi>q</mi> <mo class='MathClass-rel'>=</mo><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
+                          <mtr><mtd columnalign='right' class='align-odd'> <mtable align='axis' class='array' style='' equalrows='false' columnlines='none none' equalcolumns='false'> <mtr><mtd class='array' columnalign='left'><mstyle class='text'><mtext>find</mtext></mstyle>       </mtd><mtd class='array' columnalign='left'><mi>λ</mi>                         </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'><mstyle class='text'><mtext>satisfying</mtext></mstyle></mtd><mtd class='array' columnalign='left'><mi>q</mi> <mo class='MathClass-rel'>=</mo><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
   </mrow><mrow><mi>i</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><msub><mrow><mi>λ</mi></mrow><mrow>
 <mi>i</mi></mrow></msub><msub><mrow><mi>p</mi></mrow><mrow><mi>i</mi></mrow></msub>              </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'>               </mtd><mtd columnalign='left' class='array'><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
+</mtr>  <mtr><mtd class='array' columnalign='left'>               </mtd><mtd class='array' columnalign='left'><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
   </mrow><mrow><mi>i</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><msub><mrow><mi>λ</mi></mrow><mrow>
 <mi>i</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mn>1</mn>              </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'>            </mtd><mtd columnalign='left' class='array'><msub><mrow><mi>λ</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mstyle class='text'><mtext> for all </mtext></mstyle><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><mi>n</mi><mo class='MathClass-punc'>.</mo></mtd></mtr> <!-- lll --></mtable>                                                                 </mtd>                          <mtd class='align-even'><mspace width='2em'></mspace></mtd>                          <mtd columnalign='right' class='align-label'><mstyle id='x1-22001r4' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(4)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+</mtr>  <mtr><mtd class='array' columnalign='left'>            </mtd><mtd class='array' columnalign='left'><msub><mrow><mi>λ</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mstyle class='text'><mtext> for all </mtext></mstyle><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><mi>n</mi><mo class='MathClass-punc'>.</mo></mtd></mtr> <!-- lll --></mtable>                                                                 </mtd>                          <mtd class='align-even'><mspace width='2em'></mspace></mtd>                          <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-22001r4'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(4)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
    </mtd></mtr></mtable></math>
 <!-- l. 763 --><p class='noindent'>This problem has no objective function and such a problem is often called a <span class='cmti-12'>linear feasibility
 </span><span class='cmti-12'>problem</span>. Although it might look simpler problem to solve, it is polynomially equivalent
@@ -845,11 +845,11 @@ to the general LP. In fact, it is usually a good idea to set up an equivalent LP
 it. More specifically, the problem (<a href='#x1-22001r4'>4<!-- tex4ht:ref: eq:Vredundancy_lp1  --></a>) has a solution if and only if the following has no
 solution:
 </p><!-- tex4ht:inline --><!-- l. 776 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='align'>
-                         <mtr><mtd columnalign='right' class='align-odd'> <mtable columnlines='none none' equalcolumns='false' equalrows='false' class='array' align='axis' style=''> <mtr><mtd columnalign='left' class='array'><mstyle class='text'><mtext>find</mtext></mstyle>       </mtd><mtd columnalign='left' class='array'><msub><mrow><mi>z</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>∈</mo> <mi>R</mi><mstyle class='text'><mtext> and </mtext></mstyle><mi>z</mi> <mo class='MathClass-rel'>∈</mo> <msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi></mrow></msup>            </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'><mstyle class='text'><mtext>satisfying</mtext></mstyle></mtd><mtd columnalign='left' class='array'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><msub><mrow><mi>p</mi></mrow><mrow>
+                         <mtr><mtd columnalign='right' class='align-odd'> <mtable align='axis' class='array' style='' equalrows='false' columnlines='none none' equalcolumns='false'> <mtr><mtd class='array' columnalign='left'><mstyle class='text'><mtext>find</mtext></mstyle>       </mtd><mtd class='array' columnalign='left'><msub><mrow><mi>z</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>∈</mo> <mi>R</mi><mstyle class='text'><mtext> and </mtext></mstyle><mi>z</mi> <mo class='MathClass-rel'>∈</mo> <msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi></mrow></msup>            </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'><mstyle class='text'><mtext>satisfying</mtext></mstyle></mtd><mtd class='array' columnalign='left'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><msub><mrow><mi>p</mi></mrow><mrow>
 <mi>i</mi></mrow></msub> <mo class='MathClass-rel'>≤</mo> <msub><mrow><mi>z</mi></mrow><mrow><mn>0</mn></mrow></msub><mstyle class='text'><mtext> for all </mtext></mstyle><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><mi>n</mi></mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'>          </mtd><mtd columnalign='left' class='array'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>q</mi> <mo class='MathClass-rel'>&gt;</mo> <msub><mrow><mi>z</mi></mrow><mrow>
-<mn>0</mn></mrow></msub><mo class='MathClass-punc'>.</mo>                   </mtd></mtr> <!-- lll --></mtable>                                                              </mtd>                         <mtd class='align-even'><mspace width='2em'></mspace></mtd>                         <mtd columnalign='right' class='align-label'><mstyle id='x1-22002r5' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(5)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+</mtr>  <mtr><mtd class='array' columnalign='left'>          </mtd><mtd class='array' columnalign='left'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>q</mi> <mo class='MathClass-rel'>&gt;</mo> <msub><mrow><mi>z</mi></mrow><mrow>
+<mn>0</mn></mrow></msub><mo class='MathClass-punc'>.</mo>                   </mtd></mtr> <!-- lll --></mtable>                                                              </mtd>                         <mtd class='align-even'><mspace width='2em'></mspace></mtd>                         <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-22002r5'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(5)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
    </mtd></mtr></mtable></math>
                                                                                            
                                                                                            
@@ -863,12 +863,12 @@ inquiry point <!-- l. 780 --><math xmlns='http://www.w3.org/1998/Math/MathML' di
 Thus the existence of the separation means the nonredundancy. Now, to actually solve the problem
 (<a href='#x1-22002r5'>5<!-- tex4ht:ref: eq:Vredundancy_lp2  --></a>), we set up the LP:
 </p><!-- tex4ht:inline --><!-- l. 789 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='align'>
-                    <mtr><mtd columnalign='right' class='align-odd'> <mtable columnlines='none none' equalcolumns='false' equalrows='false' class='array' align='axis' style=''> <mtr><mtd columnalign='left' class='array'><msup><mrow><mi>f</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup> <mo class='MathClass-rel'>=</mo></mtd><mtd columnalign='left' class='array'><mstyle class='text'><mtext>maximize</mtext></mstyle> </mtd><mtd columnalign='left' class='array'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>q</mi> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>z</mi></mrow><mrow>
+                    <mtr><mtd columnalign='right' class='align-odd'> <mtable align='axis' class='array' style='' equalrows='false' columnlines='none none' equalcolumns='false'> <mtr><mtd class='array' columnalign='left'><msup><mrow><mi>f</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup> <mo class='MathClass-rel'>=</mo></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>maximize</mtext></mstyle> </mtd><mtd class='array' columnalign='left'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>q</mi> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>z</mi></mrow><mrow>
 <mn>0</mn></mrow></msub>                                        </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'>         </mtd><mtd columnalign='left' class='array'><mstyle class='text'><mtext>subject to</mtext></mstyle></mtd><mtd columnalign='left' class='array'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><msub><mrow><mi>p</mi></mrow><mrow>
+</mtr>  <mtr><mtd class='array' columnalign='left'>         </mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>subject to</mtext></mstyle></mtd><mtd class='array' columnalign='left'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><msub><mrow><mi>p</mi></mrow><mrow>
 <mi>i</mi></mrow></msub> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>z</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-rel'>≤</mo> <mn>0</mn><mstyle class='text'><mtext> for all </mtext></mstyle><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><mi>n</mi></mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'>     </mtd><mtd columnalign='left' class='array'>           </mtd><mtd columnalign='left' class='array'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>q</mi> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>z</mi></mrow><mrow>
-<mn>0</mn></mrow></msub> <mo class='MathClass-rel'>≤</mo> <mn>1</mn><mo class='MathClass-punc'>.</mo>                   </mtd></mtr> <!-- lll --></mtable>                                                   </mtd>                    <mtd class='align-even'><mspace width='2em'></mspace></mtd>                    <mtd columnalign='right' class='align-label'><mstyle id='x1-22003r6' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(6)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+</mtr>  <mtr><mtd class='array' columnalign='left'>     </mtd><mtd class='array' columnalign='left'>           </mtd><mtd class='array' columnalign='left'><msup><mrow><mi>z</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>q</mi> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>z</mi></mrow><mrow>
+<mn>0</mn></mrow></msub> <mo class='MathClass-rel'>≤</mo> <mn>1</mn><mo class='MathClass-punc'>.</mo>                   </mtd></mtr> <!-- lll --></mtable>                                                   </mtd>                    <mtd class='align-even'><mspace width='2em'></mspace></mtd>                    <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-22003r6'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(6)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
    </mtd></mtr></mtable></math>
 <!-- l. 790 --><p class='noindent'>The last inequality is artificially added so that the LP has a bounded solution. It is easy to see that the point
 <!-- l. 791 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>q</mi></math> is non-redundant if and
@@ -941,9 +941,9 @@ If so, the inequality <!-- l. 848 --><math xmlns='http://www.w3.org/1998/Math/Ma
 is redundant and can be removed from the system. A linear programming (LP) formulation of this
 checking is rather straightforward:
 </p><!-- tex4ht:inline --><!-- l. 859 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='align'>
-                             <mtr><mtd columnalign='right' class='align-odd'> <mtable columnlines='none none' equalcolumns='false' equalrows='false' class='array' align='axis' style=''> <mtr><mtd columnalign='left' class='array'><msup><mrow><mi>f</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup> <mo class='MathClass-rel'>=</mo></mtd><mtd columnalign='left' class='array'><mstyle class='text'><mtext>maximize</mtext></mstyle> </mtd><mtd columnalign='left' class='array'><msup><mrow><mi>s</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi>         </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'>     </mtd><mtd columnalign='left' class='array'><mstyle class='text'><mtext>subject to</mtext></mstyle></mtd><mtd columnalign='left' class='array'><mi mathvariant='italic'>Ax</mi> <mo class='MathClass-rel'>≤</mo> <mi>b</mi>      </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'>     </mtd><mtd columnalign='left' class='array'>           </mtd><mtd columnalign='left' class='array'><msup><mrow><mi>s</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mi>t</mi> <mo class='MathClass-bin'>+</mo> <mn>1</mn><mo class='MathClass-punc'>.</mo></mtd></mtr> <!-- lll --></mtable>                                                                        </mtd>                             <mtd class='align-even'><mspace width='2em'></mspace></mtd>                             <mtd columnalign='right' class='align-label'><mstyle id='x1-24001r7' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(7)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+                             <mtr><mtd columnalign='right' class='align-odd'> <mtable align='axis' class='array' style='' equalrows='false' columnlines='none none' equalcolumns='false'> <mtr><mtd class='array' columnalign='left'><msup><mrow><mi>f</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup> <mo class='MathClass-rel'>=</mo></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>maximize</mtext></mstyle> </mtd><mtd class='array' columnalign='left'><msup><mrow><mi>s</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi>         </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'>     </mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>subject to</mtext></mstyle></mtd><mtd class='array' columnalign='left'><mi mathvariant='italic'>Ax</mi> <mo class='MathClass-rel'>≤</mo> <mi>b</mi>      </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'>     </mtd><mtd class='array' columnalign='left'>           </mtd><mtd class='array' columnalign='left'><msup><mrow><mi>s</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mi>t</mi> <mo class='MathClass-bin'>+</mo> <mn>1</mn><mo class='MathClass-punc'>.</mo></mtd></mtr> <!-- lll --></mtable>                                                                        </mtd>                             <mtd class='align-even'><mspace width='2em'></mspace></mtd>                             <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-24001r7'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(7)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
    </mtd></mtr></mtable></math>
 <!-- l. 860 --><p class='noindent'>Then the inequality <!-- l. 860 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>s</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mi>t</mi></math> is redundant
 if and only if the optimal value <!-- l. 861 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>f</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup></math>
@@ -958,9 +958,9 @@ for a subsystem <!-- l. 872 --><math xmlns='http://www.w3.org/1998/Math/MathML' 
 of <!-- l. 872 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi mathvariant='italic'>Ax</mi> <mo class='MathClass-rel'>≤</mo> <mi>b</mi></math> of size
 at most <!-- l. 873 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>m</mi></mrow><mrow><mi>′</mi></mrow></msup></math>.
 </p><!-- tex4ht:inline --><!-- l. 881 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='align'>
-                             <mtr><mtd columnalign='right' class='align-odd'> <mtable columnlines='none none' equalcolumns='false' equalrows='false' class='array' align='axis' style=''> <mtr><mtd columnalign='left' class='array'><msup><mrow><mi>f</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup> <mo class='MathClass-rel'>=</mo></mtd><mtd columnalign='left' class='array'><mstyle class='text'><mtext>maximize</mtext></mstyle> </mtd><mtd columnalign='left' class='array'><msup><mrow><mi>s</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi>         </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'>     </mtd><mtd columnalign='left' class='array'><mstyle class='text'><mtext>subject to</mtext></mstyle></mtd><mtd columnalign='left' class='array'><msup><mrow><mi>A</mi></mrow><mrow><mi>′</mi></mrow></msup><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <msup><mrow><mi>b</mi></mrow><mrow><mi>′</mi></mrow></msup>   </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'>    </mtd><mtd columnalign='left' class='array'>        </mtd><mtd columnalign='left' class='array'><msup><mrow><mi>s</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mi>t</mi> <mo class='MathClass-bin'>+</mo> <mn>1</mn><mo class='MathClass-punc'>.</mo></mtd></mtr> <!-- lll --></mtable>                                                                        </mtd>                             <mtd class='align-even'><mspace width='2em'></mspace></mtd>                             <mtd columnalign='right' class='align-label'><mstyle id='x1-24002r8' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(8)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+                             <mtr><mtd columnalign='right' class='align-odd'> <mtable align='axis' class='array' style='' equalrows='false' columnlines='none none' equalcolumns='false'> <mtr><mtd class='array' columnalign='left'><msup><mrow><mi>f</mi></mrow><mrow><mo class='MathClass-bin'>∗</mo></mrow></msup> <mo class='MathClass-rel'>=</mo></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>maximize</mtext></mstyle> </mtd><mtd class='array' columnalign='left'><msup><mrow><mi>s</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi>         </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'>     </mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>subject to</mtext></mstyle></mtd><mtd class='array' columnalign='left'><msup><mrow><mi>A</mi></mrow><mrow><mi>′</mi></mrow></msup><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <msup><mrow><mi>b</mi></mrow><mrow><mi>′</mi></mrow></msup>   </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'>    </mtd><mtd class='array' columnalign='left'>        </mtd><mtd class='array' columnalign='left'><msup><mrow><mi>s</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mi>t</mi> <mo class='MathClass-bin'>+</mo> <mn>1</mn><mo class='MathClass-punc'>.</mo></mtd></mtr> <!-- lll --></mtable>                                                                        </mtd>                             <mtd class='align-even'><mspace width='2em'></mspace></mtd>                             <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-24002r8'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(8)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
    </mtd></mtr></mtable></math>
                                                                                            
                                                                                            
@@ -1064,7 +1064,7 @@ set of points in <!-- l. 997 --><math xmlns='http://www.w3.org/1998/Math/MathML'
 are closer to <!-- l. 998 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>p</mi></math> than to
 any other points in <!-- l. 998 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>S</mi></math>,
 or more precisely, </p><table class='equation-star'><tr><td>
-<!-- l. 999 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 999 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                      <mi mathvariant='italic'>vo</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>p</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>{</mo><mrow><mi>x</mi> <mo class='MathClass-rel'>∈</mo> <msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi></mrow></msup><mo class='MathClass-rel'>|</mo><mi mathvariant='italic'>dist</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>x</mi><mo class='MathClass-punc'>,</mo><mi>p</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>≤</mo> <mi mathvariant='italic'>dist</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>x</mi><mo class='MathClass-punc'>,</mo><mi>q</mi></mrow><mo class='MathClass-close'>)</mo></mrow><mspace width='1em' class='quad'></mspace><mi class='MathClass-op'>∀</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mi>q</mi> <mo class='MathClass-rel'>∈</mo> <mi>S</mi> <mo class='MathClass-bin'>−</mo> <mi>p</mi></mrow><mo class='MathClass-close'>}</mo></mrow><mo class='MathClass-punc'>,</mo>
 </math></td></tr></table>
 <!-- l. 1002 --><p class='indent'>   where <!-- l. 1002 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi mathvariant='italic'>dist</mi></math>
@@ -1073,7 +1073,7 @@ variations of Voronoi diagrams, but we do not discuss them here.)
 </p>
 <div class='center'>
 <!-- l. 1008 --><p class='noindent'>
-</p><!-- l. 1009 --><p class='noindent'><img width='113' height='113' src='Figures/vtest_fig_vo.png' alt='PIC' /></p></div>
+</p><!-- l. 1009 --><p class='noindent'><img src='Figures/vtest_fig_vo.png' height='113' alt='PIC' width='113' /></p></div>
 <!-- l. 1012 --><p class='indent'>   The set of all Voronoi cells and their faces forms a cell complex. The vertices of this complex are called
 the <span class='cmti-12'>Voronoi vertices</span>, and the extreme rays (i.e. unbounded edges) are the <span class='cmti-12'>Voronoi rays</span>. For each point
 <!-- l. 1015 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>v</mi> <mo class='MathClass-rel'>∈</mo> <msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi></mrow></msup></math>, the <span class='cmti-12'>nearest
@@ -1098,7 +1098,7 @@ at <!-- l. 1024 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inl
 <mi>d</mi></mrow><mrow><mn>2</mn></mrow></msubsup></math>. This hyperplane
 is represented by <!-- l. 1026 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>h</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>p</mi></mrow><mo class='MathClass-close'>)</mo></mrow></math>:
 </p><table class='equation-star'><tr><td>
-<!-- l. 1027 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 1027 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                            <munderover accent='false' accentunder='false'><mrow><mo>∑</mo>
   </mrow><mrow><mi>j</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>d</mi></mrow></munderover><msubsup><mrow><mi>p</mi></mrow><mrow>
 <mi>j</mi></mrow><mrow><mn>2</mn></mrow></msubsup> <mo class='MathClass-bin'>−</mo><munderover accent='false' accentunder='false'><mrow><mo>∑</mo>
@@ -1126,7 +1126,7 @@ project exactly to the Voronoi vertices and the rays, respectively.
 </p>
 <div class='center'>
 <!-- l. 1042 --><p class='noindent'>
-</p><!-- l. 1043 --><p class='noindent'><img width='113' height='113' src='Figures/vtest_fig_vo3d.png' alt='PIC' /></p></div>
+</p><!-- l. 1043 --><p class='noindent'><img src='Figures/vtest_fig_vo3d.png' height='113' alt='PIC' width='113' /></p></div>
 <!-- l. 1046 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead'><span class='titlemark'>3.3   </span> <a id='x1-300003.3'></a>What is the Delaunay triangulation in
@@ -1145,7 +1145,7 @@ into the Delaunay cells of Voronoi vertices together with their faces.
 </p>
 <div class='center'>
 <!-- l. 1060 --><p class='noindent'>
-</p><!-- l. 1061 --><p class='noindent'><img width='113' height='113' src='Figures/vtest_draw_vode.png' alt='PIC' /></p></div>
+</p><!-- l. 1061 --><p class='noindent'><img src='Figures/vtest_draw_vode.png' height='113' alt='PIC' width='113' /></p></div>
 <!-- l. 1064 --><p class='indent'>   The Delaunay complex is not in general a triangulation but becomes a
 triangulation when the input points are in <span class='cmti-12'>general position </span>(or <span class='cmti-12'>nondegenerate</span>), i.e. no
 <!-- l. 1067 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>d</mi> <mo class='MathClass-bin'>+</mo> <mn>2</mn></math>
@@ -1167,7 +1167,7 @@ let <!-- l. 1077 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='in
 <!-- l. 1078 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>p</mi> <mo class='MathClass-rel'>∈</mo> <mi>S</mi></math>. Then the so-called lower
 hull of the lifted points <!-- l. 1079 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mover accent='true'><mrow><mi>S</mi></mrow><mo accent='true'>̃</mo></mover> <mo class='MathClass-punc'>:</mo><mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>{</mo><mrow><mover accent='true'><mrow><mi>p</mi></mrow><mo accent='true'>̃</mo></mover> <mo class='MathClass-punc'>:</mo> <mi>p</mi> <mo class='MathClass-rel'>∈</mo> <mi>S</mi></mrow><mo class='MathClass-close'>}</mo></mrow></math>
 represents the Delaunay complex. More precisely, let </p><table class='equation-star'><tr><td>
-<!-- l. 1081 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 1081 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                                <mi>P</mi> <mo class='MathClass-rel'>=</mo> <mi mathvariant='italic'>conv</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mover accent='true'><mrow><mi>S</mi></mrow><mo accent='true'>̃</mo></mover></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-bin'>+</mo> <mi mathvariant='italic'>nonneg</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msup><mrow><mi>e</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msup></mrow><mo class='MathClass-close'>)</mo></mrow>
 </math></td></tr></table>
 <!-- l. 1084 --><p class='indent'>   where <!-- l. 1084 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>e</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msup></math> is the unit
@@ -1212,7 +1212,7 @@ there is an incremental <!-- l. 1115 --><math xmlns='http://www.w3.org/1998/Math
 algorithm, see <span class='cite'>[<a href='#Xgo-hbdcg-97'>Ge97</a>, Chapter 20]</span>.
 </p><!-- l. 1118 --><p class='indent'>   How large is the number <!-- l. 1118 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mo class='MathClass-rel'>|</mo><mi>V</mi> <mi>o</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>S</mi></mrow><mo class='MathClass-close'>)</mo></mrow><mo class='MathClass-rel'>|</mo></math>
 of output? The tight upper bound was given in <span class='cite'>[<a href='#Xs-eubnf-91'>Sei91</a>]</span> which is
-<!-- l. 1120 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>O</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msup><mrow><mi>n</mi></mrow><mrow><mfenced close='⌋' open='⌊' separators=''><mrow><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow></mfenced></mrow></msup></mrow><mo class='MathClass-close'>)</mo></mrow></math>. While this
+<!-- l. 1120 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>O</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msup><mrow><mi>n</mi></mrow><mrow><mfenced separators='' open='⌊' close='⌋'><mrow><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow><mo class='MathClass-bin'>∕</mo><mn>2</mn></mrow></mfenced></mrow></msup></mrow><mo class='MathClass-close'>)</mo></mrow></math>. While this
 bound may be a far over-estimate of expected behavior, the number of output typically grows exponentially
 in <!-- l. 1123 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>n</mi></math> and
 <!-- l. 1123 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>d</mi></math>, and
@@ -1254,7 +1254,7 @@ given in <a href='#x1-290003.2'>3.2<!-- tex4ht:ref: voro:def  --></a>. By ignori
 <!-- l. 1161 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mrow><mo class='MathClass-open'>(</mo><mrow><mi>d</mi> <mo class='MathClass-bin'>+</mo> <mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow></math> <span class='cmr-10x-x-109'>variables as explained
 </span><span class='cmr-10x-x-109'>in </span><a href='#x1-290003.2'><span class='cmr-10x-x-109'>3.2</span><!-- tex4ht:ref: voro:def  --></a><span class='cmr-10x-x-109'>: for each </span><!-- l. 1162 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>p</mi> <mo class='MathClass-rel'>∈</mo> <mi>S</mi></math><span class='cmr-10x-x-109'>,</span>
 </p><table class='equation-star'><tr><td>
-<!-- l. 1163 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 1163 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                             <munderover accent='false' accentunder='false'><mrow><mo>∑</mo>
   </mrow><mrow><mi>j</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>d</mi></mrow></munderover><msubsup><mrow><mi>p</mi></mrow><mrow>
 <mi>j</mi></mrow><mrow><mn>2</mn></mrow></msubsup> <mo class='MathClass-bin'>−</mo><munderover accent='false' accentunder='false'><mrow><mo>∑</mo>
@@ -1262,13 +1262,13 @@ given in <a href='#x1-290003.2'>3.2<!-- tex4ht:ref: voro:def  --></a>. By ignori
 <mi>j</mi></mrow></msub><msub><mrow><mi>x</mi></mrow><mrow><mi>j</mi></mrow></msub> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo>
 </math></td></tr></table>
 <!-- l. 1166 --><p class='indent'>   <span class='cmr-10x-x-109'>For our example, we have:</span> </p><table class='equation-star'><tr><td>
-<!-- l. 1167 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
- <mtable columnlines='none none none' equalcolumns='false' equalrows='false' class='array' align='axis' style=''> <mtr><mtd columnalign='right' class='array'> <mn>0</mn></mtd><mtd columnalign='right' class='array'>      </mtd><mtd columnalign='right' class='array'>      </mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
-</mtr>  <mtr><mtd columnalign='right' class='array'> <mn>5</mn></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>−</mo> <mn>4</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>−</mo> <mn>2</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
-</mtr>  <mtr><mtd columnalign='right' class='array'> <mn>5</mn></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>−</mo> <mn>2</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>−</mo> <mn>4</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
-</mtr>  <mtr><mtd columnalign='right' class='array'><mn>16</mn></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>−</mo> <mn>8</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd columnalign='right' class='array'>      </mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
-</mtr>  <mtr><mtd columnalign='right' class='array'><mn>16</mn></mtd><mtd columnalign='right' class='array'>      </mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>−</mo> <mn>8</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
-</mtr>  <mtr><mtd columnalign='right' class='array'><mn>32</mn></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>−</mo> <mn>8</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>−</mo> <mn>8</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd columnalign='right' class='array'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd></mtr><!-- rrrr --></mtable>
+<!-- l. 1167 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
+ <mtable align='axis' class='array' style='' equalrows='false' columnlines='none none none' equalcolumns='false'> <mtr><mtd class='array' columnalign='right'> <mn>0</mn></mtd><mtd class='array' columnalign='right'>      </mtd><mtd class='array' columnalign='right'>      </mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='right'> <mn>5</mn></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>−</mo> <mn>4</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>−</mo> <mn>2</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='right'> <mn>5</mn></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>−</mo> <mn>2</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>−</mo> <mn>4</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='right'><mn>16</mn></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>−</mo> <mn>8</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd class='array' columnalign='right'>      </mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='right'><mn>16</mn></mtd><mtd class='array' columnalign='right'>      </mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>−</mo> <mn>8</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='right'><mn>32</mn></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>−</mo> <mn>8</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>1</mn></mrow></msub></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>−</mo> <mn>8</mn><msub><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msub></mtd><mtd class='array' columnalign='right'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd></mtr><!-- rrrr --></mtable>
 </math></td></tr></table>
                                                                                            
                                                                                            
@@ -1280,7 +1280,7 @@ given in <a href='#x1-290003.2'>3.2<!-- tex4ht:ref: voro:def  --></a>. By ignori
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-1' class='verbatim'>
+   <div class='verbatim' id='verbatim-1'>
 * filename: vtest_vo.ine
  <br />H-representation
  <br />begin
@@ -1305,14 +1305,14 @@ given in <a href='#x1-290003.2'>3.2<!-- tex4ht:ref: voro:def  --></a>. By ignori
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-2' class='verbatim'>
+   <div class='verbatim' id='verbatim-2'>
 % scdd_gmp vtest_vo.ine
 </div>
 <!-- l. 1214 --><p class='nopar'> <span class='cmr-10x-x-109'>or</span>
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-3' class='verbatim'>
+   <div class='verbatim' id='verbatim-3'>
 % scdd vtest_vo.ine
 </div>
 <!-- l. 1218 --><p class='nopar'> <span class='cmr-10x-x-109'>we obtain the five files mentioned above. Among them the most important for our purpose are the following
@@ -1325,7 +1325,7 @@ given in <a href='#x1-290003.2'>3.2<!-- tex4ht:ref: voro:def  --></a>. By ignori
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-4' class='verbatim'>
+   <div class='verbatim' id='verbatim-4'>
 ext_file: Generators
  <br />V-representation
  <br />begin
@@ -1350,7 +1350,7 @@ ext_file: Generators
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-5' class='verbatim'>
+   <div class='verbatim' id='verbatim-5'>
   1 -3/2 2 0
 </div>
 <!-- l. 1254 --><p class='nopar'> <span class='cmr-10x-x-109'>represents the vertex </span><!-- l. 1255 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mrow><mo class='MathClass-open'>(</mo><mrow><mo class='MathClass-bin'>−</mo><mn>3</mn><mo class='MathClass-bin'>∕</mo><mn>2</mn><mo class='MathClass-punc'>,</mo><mn>2</mn><mo class='MathClass-punc'>,</mo><mn>0</mn></mrow><mo class='MathClass-close'>)</mo></mrow></math><span class='cmr-10x-x-109'>.
@@ -1358,7 +1358,7 @@ ext_file: Generators
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-6' class='verbatim'>
+   <div class='verbatim' id='verbatim-6'>
   0 -1 0 0 
 </div>
 <!-- l. 1257 --><p class='nopar'> <span class='cmr-10x-x-109'>represents the ray </span><!-- l. 1258 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mrow><mo class='MathClass-open'>(</mo><mrow><mo class='MathClass-bin'>−</mo><mn>1</mn><mo class='MathClass-punc'>,</mo><mn>0</mn><mo class='MathClass-punc'>,</mo><mn>0</mn></mrow><mo class='MathClass-close'>)</mo></mrow></math><span class='cmr-10x-x-109'>.</span>
@@ -1378,7 +1378,7 @@ ext_file: Generators
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-7' class='verbatim'>
+   <div class='verbatim' id='verbatim-7'>
 ecd_file: Incidence of generators and inequalities
  <br />begin
  <br />  10    7
@@ -1399,14 +1399,14 @@ ecd_file: Incidence of generators and inequalities
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-8' class='verbatim'>
+   <div class='verbatim' id='verbatim-8'>
  2 3 : 1 3 5
 </div>
 <!-- l. 1288 --><p class='nopar'> <span class='cmr-10x-x-109'>says the second data in vtest_vo.ext file:</span>
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-9' class='verbatim'>
+   <div class='verbatim' id='verbatim-9'>
  1 -3/2 2 0
 </div>
 <!-- l. 1291 --><p class='nopar'> <span class='cmr-10x-x-109'>is a voronoi vertex whose nearest neighbor set is</span>
@@ -1415,14 +1415,14 @@ ecd_file: Incidence of generators and inequalities
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-10' class='verbatim'>
+   <div class='verbatim' id='verbatim-10'>
  1 3 : 1 5 7
 </div>
 <!-- l. 1296 --><p class='nopar'> <span class='cmr-10x-x-109'>indicates the ray (the first output in vtest_vo.ext file)</span>
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-11' class='verbatim'>
+   <div class='verbatim' id='verbatim-11'>
   0 -1 0 0 
 </div>
 <!-- l. 1298 --><p class='nopar'> <span class='cmr-10x-x-109'>is determined by 1, 5 and 7th halfspaces. The 7th halfspace is an artificial one corresponding to the infinity.
@@ -1436,7 +1436,7 @@ ecd_file: Incidence of generators and inequalities
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-12' class='verbatim'>
+   <div class='verbatim' id='verbatim-12'>
 iad_file: Adjacency of inequalities
  <br />begin
  <br />  7    7
@@ -1455,12 +1455,12 @@ iad_file: Adjacency of inequalities
 </p>
 <div class='center'>
 <!-- l. 1332 --><p class='noindent'>
-</p><!-- l. 1333 --><p class='noindent'><img width='113' height='113' src='Figures/vtest_draw_vode.png' alt='PIC' /></p></div>
+</p><!-- l. 1333 --><p class='noindent'><img src='Figures/vtest_draw_vode.png' height='113' alt='PIC' width='113' /></p></div>
 <!-- l. 1336 --><p class='noindent'><span class='cmr-10x-x-109'>For example, the first row</span>
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-13' class='verbatim'>
+   <div class='verbatim' id='verbatim-13'>
   1 -5 : 1 6
 </div>
 <!-- l. 1340 --><p class='nopar'> <span class='cmr-10x-x-109'>says that the first Voronoi cell is adjacent to </span><!-- l. 1341 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mn>5</mn></math>
@@ -1468,7 +1468,7 @@ iad_file: Adjacency of inequalities
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-14' class='verbatim'>
+   <div class='verbatim' id='verbatim-14'>
   1 5 : 2 3 4 5 7
 </div>
 <!-- l. 1345 --><p class='nopar'> <span class='cmr-10x-x-109'>Notice that the cddlib lists the non-neighbors whenever the number of non-neighbors is smaller than that of neighbors.
@@ -1504,7 +1504,7 @@ the first <!-- l. 1376 --><math xmlns='http://www.w3.org/1998/Math/MathML' displ
 components. </p><table class='equation-star'><tr><td>
                                                                                            
                                                                                            
-<!-- l. 1377 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 1377 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                <mi>P</mi> <mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>{</mo><mrow><mi>x</mi> <mo class='MathClass-rel'>∈</mo> <msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msup><mspace width='0.28em' class='thickpace'></mspace><mo class='MathClass-rel'>|</mo><mspace width='0.28em' class='thickpace'></mspace><munderover accent='false' accentunder='false'><mrow><mo>∑</mo>
   </mrow><mrow><mi>j</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>d</mi></mrow></munderover><msubsup><mrow><mi>p</mi></mrow><mrow>
 <mi>j</mi></mrow><mrow><mn>2</mn></mrow></msubsup> <mo class='MathClass-bin'>−</mo><munderover accent='false' accentunder='false'><mrow><mo>∑</mo>
@@ -1512,7 +1512,7 @@ components. </p><table class='equation-star'><tr><td>
 <mi>j</mi></mrow></msub><msub><mrow><mi>x</mi></mrow><mrow><mi>j</mi></mrow></msub> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>x</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mspace width='1em' class='quad'></mspace><mi class='MathClass-op'>∀</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mi>p</mi> <mo class='MathClass-rel'>∈</mo> <mi>S</mi></mrow><mo class='MathClass-close'>}</mo></mrow><mo class='MathClass-punc'>.</mo>
 </math></td></tr></table>
 <!-- l. 1381 --><p class='indent'>   For simplicity, denote it as </p><table class='equation-star'><tr><td>
-<!-- l. 1382 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 1382 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                                 <mi>P</mi> <mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>{</mo><mrow><mi>x</mi> <mo class='MathClass-rel'>∈</mo> <msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msup><mspace width='0.28em' class='thickpace'></mspace><mo class='MathClass-rel'>|</mo><mspace width='0.28em' class='thickpace'></mspace><mi>b</mi> <mo class='MathClass-bin'>−</mo> <mi mathvariant='italic'>Ax</mi> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mrow><mo class='MathClass-close'>}</mo></mrow><mo class='MathClass-punc'>,</mo>
 </math></td></tr></table>
 <!-- l. 1385 --><p class='indent'>   where <!-- l. 1385 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>A</mi></math>
@@ -1525,7 +1525,7 @@ facet <!-- l. 1386 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='
 of <!-- l. 1386 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>P</mi></math>:
 </p><!-- tex4ht:inline --><!-- l. 1390 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='align'>
                        <mtr><mtd columnalign='right' class='align-odd'><msub><mrow><mi>F</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>{</mo><mrow><mi>x</mi> <mo class='MathClass-rel'>∈</mo> <msup><mrow><mi>R</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msup><mspace width='0.28em' class='thickpace'></mspace><mo class='MathClass-rel'>|</mo><mspace width='0.28em' class='thickpace'></mspace><mi>b</mi> <mo class='MathClass-bin'>−</mo> <mi>A</mi><mspace width='0.28em' class='thickpace'></mspace><mi>x</mi> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mstyle class='mbox'><mtext> and </mtext></mstyle><msub><mrow><mi>b</mi></mrow><mrow>
-<mi>i</mi></mrow></msub> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>A</mi></mrow><mrow><mi>i</mi></mrow></msub><mspace width='0.28em' class='thickpace'></mspace><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mn>0</mn></mrow><mo class='MathClass-close'>}</mo></mrow><mo class='MathClass-punc'>,</mo></mtd>                       <mtd class='align-even'><mspace width='2em'></mspace></mtd>                       <mtd columnalign='right' class='align-label'><mstyle id='x1-33001r9' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(9)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+<mi>i</mi></mrow></msub> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>A</mi></mrow><mrow><mi>i</mi></mrow></msub><mspace width='0.28em' class='thickpace'></mspace><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mn>0</mn></mrow><mo class='MathClass-close'>}</mo></mrow><mo class='MathClass-punc'>,</mo></mtd>                       <mtd class='align-even'><mspace width='2em'></mspace></mtd>                       <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-33001r9'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(9)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
    </mtd></mtr></mtable></math>
 <!-- l. 1391 --><p class='noindent'>Two facets <!-- l. 1391 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>F</mi></mrow><mrow><mi>i</mi></mrow></msub></math> and
 <!-- l. 1391 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>F</mi></mrow><mrow><mi>j</mi></mrow></msub></math> are called <span class='cmti-12'>adjacent </span>if the
@@ -1547,9 +1547,9 @@ following LP for any distinct <!-- l. 1402 --><math xmlns='http://www.w3.org/199
 <!-- l. 1402 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>j</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo> <mn>2</mn><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>…</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mo class='MathClass-punc'>,</mo><mi>n</mi></math>:
 </p><!-- l. 1404 --><p class='indent'>
 </p><!-- tex4ht:inline --><!-- l. 1410 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='align'>
-                       <mtr><mtd columnalign='right' class='align-odd'> <mtable columnlines='none none none none none none' equalcolumns='false' equalrows='false' class='array' align='axis' style=''> <mtr><mtd columnalign='left' class='array'></mtd><mtd columnalign='left' class='array'><mstyle class='text'><mtext>minimize</mtext></mstyle> </mtd><mtd columnalign='left' class='array'><mspace width='1em' class='quad'></mspace><mi>f</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>x</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-punc'>:</mo><mo class='MathClass-rel'>=</mo></mtd><mtd columnalign='left' class='array'><msub><mrow><mi>b</mi></mrow><mrow><mi>j</mi></mrow></msub></mtd><mtd columnalign='left' class='array'><mo class='MathClass-bin'>−</mo></mtd><mtd columnalign='left' class='array'><msub><mrow><mi>A</mi></mrow><mrow><mi>j</mi></mrow></msub></mtd><mtd columnalign='left' class='array'><mi>x</mi>     </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'></mtd><mtd columnalign='left' class='array'><mstyle class='text'><mtext>subject to</mtext></mstyle></mtd><mtd columnalign='left' class='array'>          </mtd><mtd columnalign='left' class='array'><msup><mrow><mi>b</mi></mrow><mrow><mi>′</mi></mrow></msup></mtd><mtd columnalign='left' class='array'><mo class='MathClass-bin'>−</mo></mtd><mtd columnalign='left' class='array'><mi>A</mi> </mtd><mtd columnalign='left' class='array'><mi>x</mi><mspace width='0.28em' class='thickpace'></mspace> <mo class='MathClass-rel'>≥</mo><mspace width='0.28em' class='thickpace'></mspace><mn>0</mn> </mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'></mtd><mtd columnalign='left' class='array'>             </mtd><mtd columnalign='left' class='array'>          </mtd><mtd columnalign='left' class='array'><msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi></mrow></msub></mtd><mtd columnalign='left' class='array'><mo class='MathClass-bin'>−</mo></mtd><mtd columnalign='left' class='array'><msub><mrow><mi>A</mi></mrow><mrow><mi>i</mi></mrow></msub></mtd><mtd columnalign='left' class='array'><mi>x</mi><mspace width='0.28em' class='thickpace'></mspace> <mo class='MathClass-rel'>≤</mo><mspace width='0.28em' class='thickpace'></mspace><mn>0</mn><mo class='MathClass-punc'>,</mo></mtd></mtr> <!-- lllllll --></mtable>                                                                     </mtd>                       <mtd class='align-even'><mspace width='2em'></mspace></mtd>                       <mtd columnalign='right' class='align-label'><mstyle id='x1-33002r10' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(10)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+                       <mtr><mtd columnalign='right' class='align-odd'> <mtable align='axis' class='array' style='' equalrows='false' columnlines='none none none none none none' equalcolumns='false'> <mtr><mtd class='array' columnalign='left'></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>minimize</mtext></mstyle> </mtd><mtd class='array' columnalign='left'><mspace width='1em' class='quad'></mspace><mi>f</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>x</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-punc'>:</mo><mo class='MathClass-rel'>=</mo></mtd><mtd class='array' columnalign='left'><msub><mrow><mi>b</mi></mrow><mrow><mi>j</mi></mrow></msub></mtd><mtd class='array' columnalign='left'><mo class='MathClass-bin'>−</mo></mtd><mtd class='array' columnalign='left'><msub><mrow><mi>A</mi></mrow><mrow><mi>j</mi></mrow></msub></mtd><mtd class='array' columnalign='left'><mi>x</mi>     </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>subject to</mtext></mstyle></mtd><mtd class='array' columnalign='left'>          </mtd><mtd class='array' columnalign='left'><msup><mrow><mi>b</mi></mrow><mrow><mi>′</mi></mrow></msup></mtd><mtd class='array' columnalign='left'><mo class='MathClass-bin'>−</mo></mtd><mtd class='array' columnalign='left'><mi>A</mi> </mtd><mtd class='array' columnalign='left'><mi>x</mi><mspace width='0.28em' class='thickpace'></mspace> <mo class='MathClass-rel'>≥</mo><mspace width='0.28em' class='thickpace'></mspace><mn>0</mn> </mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'></mtd><mtd class='array' columnalign='left'>             </mtd><mtd class='array' columnalign='left'>          </mtd><mtd class='array' columnalign='left'><msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi></mrow></msub></mtd><mtd class='array' columnalign='left'><mo class='MathClass-bin'>−</mo></mtd><mtd class='array' columnalign='left'><msub><mrow><mi>A</mi></mrow><mrow><mi>i</mi></mrow></msub></mtd><mtd class='array' columnalign='left'><mi>x</mi><mspace width='0.28em' class='thickpace'></mspace> <mo class='MathClass-rel'>≤</mo><mspace width='0.28em' class='thickpace'></mspace><mn>0</mn><mo class='MathClass-punc'>,</mo></mtd></mtr> <!-- lllllll --></mtable>                                                                     </mtd>                       <mtd class='align-even'><mspace width='2em'></mspace></mtd>                       <mtd columnalign='right' class='align-label'><mstyle class='label' id='x1-33002r10'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(10)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
    </mtd></mtr></mtable></math>
 <!-- l. 1412 --><p class='noindent'>where <!-- l. 1413 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>b</mi></mrow><mrow><mi>′</mi></mrow></msup></math> is equal
 to <!-- l. 1413 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>b</mi></math> except for
@@ -1581,9 +1581,9 @@ is roughly <!-- l. 1429 --><math xmlns='http://www.w3.org/1998/Math/MathML' disp
 </span><span class='cmr-10x-x-109'>input point </span><!-- l. 1437 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo><mn>2</mn><mo class='MathClass-punc'>,</mo><mn>3</mn><mo class='MathClass-punc'>,</mo><mn>4</mn><mo class='MathClass-punc'>,</mo><mn>5</mn><mo class='MathClass-punc'>,</mo><mn>6</mn></math><span class='cmr-10x-x-109'>, we write the
 </span><span class='cmr-10x-x-109'>inequality system for the facet </span><!-- l. 1437 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>F</mi></mrow><mrow><mi>i</mi></mrow></msub></math><span class='cmr-10x-x-109'>:</span>
 </p><table class='equation-star'><tr><td>
-<!-- l. 1438 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
- <mtable columnlines='none' equalcolumns='false' equalrows='false' class='array' align='axis' style=''> <mtr><mtd columnalign='left' class='array'></mtd><mtd columnalign='left' class='array'><mi>b</mi> <mo class='MathClass-bin'>−</mo> <mi mathvariant='italic'>Ax</mi> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mstyle class='text'><mtext> and </mtext></mstyle></mtd>
-</mtr>  <mtr><mtd columnalign='left' class='array'></mtd><mtd columnalign='left' class='array'><msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>A</mi></mrow><mrow><mi>i</mi></mrow></msub><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mn>0</mn><mstyle class='text'><mtext>,</mtext></mstyle>    </mtd></mtr><!-- ll --></mtable>
+<!-- l. 1438 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
+ <mtable align='axis' class='array' style='' equalrows='false' columnlines='none' equalcolumns='false'> <mtr><mtd class='array' columnalign='left'></mtd><mtd class='array' columnalign='left'><mi>b</mi> <mo class='MathClass-bin'>−</mo> <mi mathvariant='italic'>Ax</mi> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mstyle class='text'><mtext> and </mtext></mstyle></mtd>
+</mtr>  <mtr><mtd class='array' columnalign='left'></mtd><mtd class='array' columnalign='left'><msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>A</mi></mrow><mrow><mi>i</mi></mrow></msub><mi>x</mi> <mo class='MathClass-rel'>≤</mo> <mn>0</mn><mstyle class='text'><mtext>,</mtext></mstyle>    </mtd></mtr><!-- ll --></mtable>
 </math></td></tr></table>
 <!-- l. 1444 --><p class='indent'>   <span class='cmr-10x-x-109'>instead of writing the relaxed inequality (</span><a href='#x1-33002r10'><span class='cmr-10x-x-109'>10</span><!-- tex4ht:ref: eq:voro_facet_lp  --></a><span class='cmr-10x-x-109'>). For example, for</span>
 <!-- l. 1445 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>4</mn></math><span class='cmr-10x-x-109'>, we
@@ -1592,7 +1592,7 @@ is roughly <!-- l. 1429 --><math xmlns='http://www.w3.org/1998/Math/MathML' disp
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-15' class='verbatim'>
+   <div class='verbatim' id='verbatim-15'>
 H-representation
  <br />begin
  <br /> 7   4   real
@@ -1620,7 +1620,7 @@ H-representation
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-16' class='verbatim'>
+   <div class='verbatim' id='verbatim-16'>
 % redcheck_gmp vtest_vof4.ine
 </div>
 <!-- l. 1484 --><p class='nopar'> <span class='cmr-10x-x-109'>we will get the output:</span>
@@ -1628,7 +1628,7 @@ H-representation
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-17' class='verbatim'>
+   <div class='verbatim' id='verbatim-17'>
 input file vtest_vof4.ine is open
  <br />Canonicalize the matrix.
  <br />Implicit linearity rows are: 4 7
@@ -1665,7 +1665,7 @@ input file vtest_vof4.ine is open
 </p>
 <div class='center'>
 <!-- l. 1523 --><p class='noindent'>
-</p><!-- l. 1524 --><p class='noindent'><img width='113' height='113' src='Figures/vtest_draw_de.png' alt='PIC' /></p></div>
+</p><!-- l. 1524 --><p class='noindent'><img src='Figures/vtest_draw_de.png' height='113' alt='PIC' width='113' /></p></div>
                                                                                            
                                                                                            
 <!-- l. 1531 --><p class='noindent'>
@@ -1692,7 +1692,7 @@ and let <!-- l. 1551 --><math xmlns='http://www.w3.org/1998/Math/MathML' display
 hull <!-- l. 1552 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>P</mi></math> of the
 lifted points <!-- l. 1553 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mover accent='true'><mrow><mi>S</mi></mrow><mo accent='true'>̃</mo></mover> <mo class='MathClass-punc'>:</mo><mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>{</mo><mrow><mover accent='true'><mrow><mi>p</mi></mrow><mo accent='true'>̃</mo></mover> <mo class='MathClass-punc'>:</mo> <mi>p</mi> <mo class='MathClass-rel'>∈</mo> <mi>S</mi></mrow><mo class='MathClass-close'>}</mo></mrow></math>:
 </p><table class='equation-star'><tr><td>
-<!-- l. 1554 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 1554 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                                <mi>P</mi> <mo class='MathClass-rel'>=</mo> <mi mathvariant='italic'>conv</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mover accent='true'><mrow><mi>S</mi></mrow><mo accent='true'>̃</mo></mover></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-bin'>+</mo> <mi mathvariant='italic'>nonneg</mi><mrow><mo class='MathClass-open'>(</mo><mrow><msup><mrow><mi>e</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msup></mrow><mo class='MathClass-close'>)</mo></mrow>
 </math></td></tr></table>
 <!-- l. 1557 --><p class='indent'>   represents the Delaunay complex. Here <!-- l. 1558 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msup><mrow><mi>e</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msup></math>
@@ -1709,17 +1709,17 @@ For such an inequality to represent a valid inequality of
 <!-- l. 1562 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>P</mi></math> (see Section <a href='#x1-50002.2'>2.2<!-- tex4ht:ref: polytope:faces  --></a>), it must
 be satisfied by all points in <!-- l. 1563 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mover accent='true'><mrow><mi>S</mi></mrow><mo accent='true'>̃</mo></mover></math>:
 </p><table class='equation'><tr><td> <a id='x1-36001r11'></a>
-<!-- l. 1564 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><msup><mrow>
+<!-- l. 1564 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'><msup><mrow>
                                   <mi>ỹ</mi></mrow><mrow><mi>T</mi> </mrow></msup><mover accent='true'><mrow><mi>p</mi></mrow><mo accent='true'>̃</mo></mover> <mo class='MathClass-rel'>≥</mo><mo class='MathClass-bin'>−</mo><msub><mrow><mi>y</mi></mrow><mrow>
 <mn>0</mn></mrow></msub><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>∀</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mover accent='true'><mrow><mi>p</mi></mrow><mo accent='true'>̃</mo></mover> <mo class='MathClass-rel'>∈</mo><mover accent='true'><mrow><mi>S</mi></mrow><mo accent='true'>̃</mo></mover><mo class='MathClass-punc'>,</mo>
 </math></td><td class='eq-no'>(11)</td></tr></table>
 <!-- l. 1567 --><p class='indent'>   and by any points shifted vertically upwards, i.e. </p><table class='equation-star'><tr><td>
-<!-- l. 1568 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><msup><mrow>
+<!-- l. 1568 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'><msup><mrow>
                      <mi>ỹ</mi></mrow><mrow><mi>T</mi> </mrow></msup><mrow><mo class='MathClass-open'>(</mo><mrow><mover accent='true'><mrow><mi>p</mi></mrow><mo accent='true'>̃</mo></mover> <mo class='MathClass-bin'>+</mo> <mi>α</mi><msup><mrow><mi>e</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msup></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-rel'>≥</mo><mo class='MathClass-bin'>−</mo><msub><mrow><mi>y</mi></mrow><mrow>
 <mn>0</mn></mrow></msub><mo class='MathClass-punc'>,</mo><mi class='MathClass-op'>∀</mi><mo> ⁡<!-- FUNCTION APPLICATION --></mo><mover accent='true'><mrow><mi>p</mi></mrow><mo accent='true'>̃</mo></mover> <mo class='MathClass-rel'>∈</mo><mover accent='true'><mrow><mi>S</mi></mrow><mo accent='true'>̃</mo></mover><mstyle class='text'><mtext> and any </mtext></mstyle><mi>α</mi> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo>
 </math></td></tr></table>
 <!-- l. 1572 --><p class='noindent'>Under the first inequality (<a href='#x1-36001r11'>11<!-- tex4ht:ref: voro:delfacet1  --></a>), the last inequality is equivalent to </p><table class='equation'><tr><td> <a id='x1-36002r12'></a>
-<!-- l. 1575 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow>
+<!-- l. 1575 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'><msub><mrow>
                                         <mi>ỹ</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msub> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mo class='MathClass-punc'>.</mo>
 </math></td><td class='eq-no'>(12)</td></tr></table>
 <!-- l. 1579 --><p class='noindent'>Now every Delaunay cell is a projection of a non-vertical facet of
@@ -1749,7 +1749,7 @@ for <!-- l. 1594 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='in
 <mn>0</mn></mrow></msub></math> with
 <!-- l. 1595 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>ỹ</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msub> <mo class='MathClass-rel'>=</mo> <mn>1</mn></math>, we
 obtain </p><table class='equation-star'><tr><td>
-<!-- l. 1596 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 1596 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block' class='equation'>
                                       <mi>λ</mi> <mo class='MathClass-rel'>=</mo> <mo class='MathClass-bin'>−</mo><msub><mrow><mi>y</mi></mrow><mrow><mn>0</mn></mrow></msub> <mo class='MathClass-bin'>−</mo> <msup><mrow><mi>y</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>c</mi><mo class='MathClass-punc'>,</mo>
 </math></td></tr></table>
 <!-- l. 1599 --><p class='indent'>   where <!-- l. 1599 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>y</mi></math> denotes
@@ -1757,7 +1757,7 @@ the vector <!-- l. 1599 --><math xmlns='http://www.w3.org/1998/Math/MathML' disp
 the last coordinate <!-- l. 1600 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><msub><mrow><mi>ỹ</mi></mrow><mrow><mi>d</mi><mo class='MathClass-bin'>+</mo><mn>1</mn></mrow></msub></math>.
 The LP formulation is therefore:
 </p><!-- tex4ht:inline --><!-- l. 1606 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='alignat'>
-                       <mtr><mtd columnalign='right' class='align-odd'></mtd>                       <mtd class='align-even'><mstyle class='text'><mtext>minimize</mtext></mstyle><mspace width='2em'></mspace></mtd>                        <mtd columnalign='right' class='align-odd'><mi>z</mi> <mo class='MathClass-punc'>:</mo><mo class='MathClass-rel'>=</mo></mtd>                       <mtd class='align-even'><mspace width='2em'></mspace></mtd>                           <mtd columnalign='right' class='align-odd'><msub><mrow><mi>y</mi></mrow><mrow><mn>0</mn></mrow></msub><mo class='MathClass-bin'>+</mo></mtd>                          <mtd class='align-even'><msup><mrow><mi>y</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>c</mi><mspace width='2em'></mspace></mtd>                                                                                                                                                            <mtd columnalign='right' class='align-label'>                      <mstyle id='x1-36003r13' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(13)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+                       <mtr><mtd columnalign='right' class='align-odd'></mtd>                       <mtd class='align-even'><mstyle class='text'><mtext>minimize</mtext></mstyle><mspace width='2em'></mspace></mtd>                        <mtd columnalign='right' class='align-odd'><mi>z</mi> <mo class='MathClass-punc'>:</mo><mo class='MathClass-rel'>=</mo></mtd>                       <mtd class='align-even'><mspace width='2em'></mspace></mtd>                           <mtd columnalign='right' class='align-odd'><msub><mrow><mi>y</mi></mrow><mrow><mn>0</mn></mrow></msub><mo class='MathClass-bin'>+</mo></mtd>                          <mtd class='align-even'><msup><mrow><mi>y</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>c</mi><mspace width='2em'></mspace></mtd>                                                                                                                                                            <mtd columnalign='right' class='align-label'>                      <mstyle class='label' id='x1-36003r13'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(13)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
                        </mtd></mtr><mtr><mtd columnalign='right' class='align-odd'></mtd>                       <mtd class='align-even'><mstyle class='text'><mtext>subject to</mtext></mstyle><mspace width='2em'></mspace></mtd>                       <mtd columnalign='right' class='align-odd'></mtd>                           <mtd class='align-even'><mi>f</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>p</mi></mrow><mo class='MathClass-close'>)</mo></mrow><mspace width='2em'></mspace></mtd>                       <mtd columnalign='right' class='align-odd'> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>y</mi></mrow><mrow><mn>0</mn></mrow></msub><mo class='MathClass-bin'>+</mo></mtd>                       <mtd class='align-even'><msup><mrow><mi>y</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>p</mi> <mo class='MathClass-rel'>≥</mo> <mn>0</mn><mstyle class='text'><mtext> for all </mtext></mstyle><mi>p</mi> <mo class='MathClass-rel'>∈</mo> <mi>S</mi><mo class='MathClass-punc'>.</mo><mspace width='2em'></mspace></mtd>                       <mtd columnalign='right' class='align-label'></mtd>                       <mtd class='align-label'><mspace width='2em'></mspace></mtd>                       <mtd columnalign='right' class='align-label'></mtd>                       <mtd class='align-label'><mspace width='2em'></mspace></mtd>                       <mtd columnalign='right' class='align-label'></mtd>                       <mtd class='align-label'>
    <mspace width='2em'></mspace></mtd></mtr></mtable></math>
                                                                                            
@@ -1790,7 +1790,7 @@ A certificate of unboundedness actually induces a hyperplane strongly separating
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-18' class='verbatim'>
+   <div class='verbatim' id='verbatim-18'>
 H-representation
  <br />begin
  <br />  6  4  rational
@@ -1810,7 +1810,7 @@ H-representation
                                                                                            
                                                                                            
 </p>
-   <div id='verbatim-19' class='verbatim'>
+   <div class='verbatim' id='verbatim-19'>
 * #constraints = 6
  <br />* #variables   = 3
  <br />* Algorithm: dual simplex algorithm
@@ -1853,10 +1853,10 @@ subject to linear inequality constraints. More precisely,
 </p><!-- tex4ht:inline --><!-- l. 1707 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='alignat'>
                   <mtr><mtd columnalign='right' class='align-odd'></mtd>                  <mtd class='align-even'><mstyle class='text'><mtext>maximize</mtext></mstyle><mspace width='2em'></mspace></mtd>                   <mtd columnalign='right' class='align-odd'><mspace width='1em' class='quad'></mspace><mi>f</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>x</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-punc'>:</mo><mo class='MathClass-rel'>=</mo></mtd>                  <mtd class='align-even'><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
   </mrow><mrow><mi>j</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>d</mi></mrow></munderover><msub><mrow><mi>c</mi></mrow><mrow>
-<mi>j</mi></mrow></msub><msub><mrow><mi>x</mi></mrow><mrow><mi>j</mi></mrow></msub><mspace width='2em'></mspace></mtd>                                                                                                  <mtd columnalign='right' class='align-label'>                      <mstyle id='x1-40001r14' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(14)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+<mi>j</mi></mrow></msub><msub><mrow><mi>x</mi></mrow><mrow><mi>j</mi></mrow></msub><mspace width='2em'></mspace></mtd>                                                                                                  <mtd columnalign='right' class='align-label'>                      <mstyle class='label' id='x1-40001r14'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(14)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
                   </mtd></mtr><mtr><mtd columnalign='right' class='align-odd'></mtd>                  <mtd class='align-even'><mstyle class='text'><mtext>subject to</mtext></mstyle><mspace width='2em'></mspace></mtd>                  <mtd columnalign='right' class='align-odd'></mtd>                          <mtd class='align-even'><munderover accent='false' accentunder='false'><mrow><mo> ∑</mo>
   </mrow><mrow><mi>j</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>d</mi></mrow></munderover><msub><mrow><mi>a</mi></mrow><mrow>
-<mi mathvariant='italic'>ij</mi></mrow></msub><msub><mrow><mi>x</mi></mrow><mrow><mi>j</mi></mrow></msub> <mo class='MathClass-rel'>≤</mo> <msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi></mrow></msub><mstyle class='text'><mtext> for all </mtext></mstyle><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo> <mn>2</mn><mo class='MathClass-punc'>,</mo><mo>…</mo><mo class='MathClass-punc'>,</mo><mi>m</mi><mo class='MathClass-punc'>,</mo><mspace width='2em'></mspace></mtd>                                                                        <mtd columnalign='right' class='align-label'>                <mstyle id='x1-40002r15' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(15)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+<mi mathvariant='italic'>ij</mi></mrow></msub><msub><mrow><mi>x</mi></mrow><mrow><mi>j</mi></mrow></msub> <mo class='MathClass-rel'>≤</mo> <msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi></mrow></msub><mstyle class='text'><mtext> for all </mtext></mstyle><mi>i</mi> <mo class='MathClass-rel'>=</mo> <mn>1</mn><mo class='MathClass-punc'>,</mo> <mn>2</mn><mo class='MathClass-punc'>,</mo><mo>…</mo><mo class='MathClass-punc'>,</mo><mi>m</mi><mo class='MathClass-punc'>,</mo><mspace width='2em'></mspace></mtd>                                                                        <mtd columnalign='right' class='align-label'>                <mstyle class='label' id='x1-40002r15'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(15)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
                   </mtd></mtr><mtr><mtd columnalign='right' class='align-odd'></mtd>                  <mtd class='align-even'><mspace width='2em'></mspace></mtd>                            <mtd columnalign='right' class='align-odd'></mtd>                          <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                                        <mtd columnalign='right' class='align-label'>
    </mtd></mtr></mtable></math>
 where <!-- l. 1708 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>A</mi> <mo class='MathClass-rel'>=</mo> <mrow><mo class='MathClass-open'>[</mo><mrow><msub><mrow><mi>a</mi></mrow><mrow><mi mathvariant='italic'>ij</mi></mrow></msub></mrow><mo class='MathClass-close'>]</mo></mrow></math> is a
@@ -1867,8 +1867,8 @@ rational <!-- l. 1709 --><math xmlns='http://www.w3.org/1998/Math/MathML' displa
 <!-- l. 1709 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='inline'><mi>n</mi></math>-vector.
 We often write an LP in matrix form:
 <!-- tex4ht:inline --><!-- l. 1716 --><math xmlns='http://www.w3.org/1998/Math/MathML' display='block'><mtable columnalign='left' class='alignat'>
-                                <mtr><mtd columnalign='right' class='align-odd'></mtd>                                <mtd class='align-even'><mstyle class='text'><mtext>maximize</mtext></mstyle><mspace width='2em'></mspace></mtd>                                 <mtd columnalign='right' class='align-odd'><mspace width='1em' class='quad'></mspace><mi>f</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>x</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-punc'>:</mo><mo class='MathClass-rel'>=</mo></mtd>                                <mtd class='align-even'><msup><mrow><mi>c</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi><mspace width='2em'></mspace></mtd>                                                                                                                                    <mtd columnalign='right' class='align-label'>                                <mstyle id='x1-40003r16' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(16)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
-                                </mtd></mtr><mtr><mtd columnalign='right' class='align-odd'></mtd>                                <mtd class='align-even'><mstyle class='text'><mtext>subject to</mtext></mstyle><mspace width='2em'></mspace></mtd>                                <mtd columnalign='right' class='align-odd'></mtd>                                       <mtd class='align-even'><mi mathvariant='italic'>Ax</mi> <mo class='MathClass-rel'>≤</mo> <mi>b</mi><mo class='MathClass-punc'>.</mo><mspace width='2em'></mspace></mtd>                                                                                                                                <mtd columnalign='right' class='align-label'>                                <mstyle id='x1-40004r17' class='label'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(17)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+                                <mtr><mtd columnalign='right' class='align-odd'></mtd>                                <mtd class='align-even'><mstyle class='text'><mtext>maximize</mtext></mstyle><mspace width='2em'></mspace></mtd>                                 <mtd columnalign='right' class='align-odd'><mspace width='1em' class='quad'></mspace><mi>f</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi>x</mi></mrow><mo class='MathClass-close'>)</mo></mrow> <mo class='MathClass-punc'>:</mo><mo class='MathClass-rel'>=</mo></mtd>                                <mtd class='align-even'><msup><mrow><mi>c</mi></mrow><mrow><mi>T</mi> </mrow></msup><mi>x</mi><mspace width='2em'></mspace></mtd>                                                                                                                                    <mtd columnalign='right' class='align-label'>                                <mstyle class='label' id='x1-40003r16'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(16)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
+                                </mtd></mtr><mtr><mtd columnalign='right' class='align-odd'></mtd>                                <mtd class='align-even'><mstyle class='text'><mtext>subject to</mtext></mstyle><mspace width='2em'></mspace></mtd>                                <mtd columnalign='right' class='align-odd'></mtd>                                       <mtd class='align-even'><mi mathvariant='italic'>Ax</mi> <mo class='MathClass-rel'>≤</mo> <mi>b</mi><mo class='MathClass-punc'>.</mo><mspace width='2em'></mspace></mtd>                                                                                                                                <mtd columnalign='right' class='align-label'>                                <mstyle class='label' id='x1-40004r17'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(17)</mtext></mstyle><mspace width='0.33em' class='nbsp'></mspace>
                                 </mtd></mtr><mtr><mtd columnalign='right' class='align-odd'></mtd>                                <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                          <mtd columnalign='right' class='align-odd'></mtd>                                       <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                        <mtd columnalign='right' class='align-label'>
    </mtd></mtr></mtable></math>
                                                                                            
